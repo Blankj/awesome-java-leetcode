@@ -20,5 +20,5 @@
 
 
 
-[001]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/001.md
-[007]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/007.md
+[001]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/001/README.md
+[007]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/007/README.md

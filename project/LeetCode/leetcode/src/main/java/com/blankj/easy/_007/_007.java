@@ -13,7 +13,11 @@ import java.util.Arrays;
 
 public class _007 {
     public static void main(String[] args) {
-
+        Solution solution = new Solution();
+        System.out.println(solution.reverse(123));
+        System.out.println(solution.reverse(-123));
+        System.out.println(solution.reverse(100));
+        System.out.println(solution.reverse(1000000003));
     }
 }
 

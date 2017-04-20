@@ -8,6 +8,7 @@
 |:------------- |:------------- |:------------- |
 |1|[Two Sum][001]|Array, Hash Table|
 |7|[Reverse Integer][007]|Math|
+|8|[String to Integer (atoi)][008]|Math, String|
 
 
 ## Medium
@@ -30,3 +31,4 @@
 [note]: https://github.com/Blankj/awesome-java-leetcode/tree/master/note
 [001]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/001/README.md
 [007]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/007/README.md
+[008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md

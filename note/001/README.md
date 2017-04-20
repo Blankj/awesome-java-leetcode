@@ -1,4 +1,4 @@
-# Two Sum
+# [Two Sum](https://leetcode.com/problems/two-sum/)
 
 ## Description
 
@@ -15,7 +15,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-**Tag：** Array, Hash Table
+**Tags：** Array, Hash Table
 
 
 ## 思路0

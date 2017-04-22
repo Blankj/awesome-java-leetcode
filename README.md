@@ -9,6 +9,7 @@
 |1|[Two Sum][001]|Array, Hash Table|
 |7|[Reverse Integer][007]|Math|
 |8|[String to Integer (atoi)][008]|Math, String|
+|9|[Palindrome Number][009]|Math|
 
 
 ## Medium
@@ -32,3 +33,4 @@
 [001]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/001/README.md
 [007]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/007/README.md
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
+[009]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/009/README.md

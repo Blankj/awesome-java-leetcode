@@ -11,6 +11,7 @@
 |8|[String to Integer (atoi)][008]|Math, String|
 |9|[Palindrome Number][009]|Math|
 |13|[Roman to Integer][013]|Math, String|
+|14|[Longest Common Prefix][014]|String|
 
 
 ## Medium
@@ -36,3 +37,4 @@
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [009]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/009/README.md
 [013]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/013/README.md
+[014]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/014/README.md

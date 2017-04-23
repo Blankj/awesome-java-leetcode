@@ -9,7 +9,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 **Tags:** Math, String
 
 
-## 思路0
+## 思路
 
 题意是罗马数字转整型数，范围从1到3999，查看下百度百科的罗马数字介绍如下，
 

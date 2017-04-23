@@ -15,7 +15,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-**Tags：** Array, Hash Table
+**Tags:** Array, Hash Table
 
 
 ## 思路0

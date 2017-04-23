@@ -8,7 +8,7 @@ Reverse digits of an integer.
 
 **Example2:** x = -123, return -321
 
-**Spoilers：**
+**Spoilers:**
 
 **Have you thought about this?**
 
@@ -24,7 +24,7 @@ For the purpose of this problem, assume that your function returns 0 when the re
 
 The input is assumed to be a 32-bit signed integer. Your function should **return 0 when the reversed integer overflows**.
 
-**Tags：** Math
+**Tags:** Math
 
 
 ## 思路

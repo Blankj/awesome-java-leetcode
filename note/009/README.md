@@ -4,7 +4,7 @@
 
 Determine whether an integer is a palindrome. Do this without extra space.
 
-**spoilers:**
+**Spoilers:**
 
 **Some hints:**
 
@@ -16,7 +16,7 @@ You could also try reversing an integer. However, if you have solved the problem
 
 There is a more generic way of solving this problem.
 
-**Tags：** Math
+**Tags:** Math
 
 
 ## 思路0

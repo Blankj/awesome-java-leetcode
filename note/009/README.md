@@ -1,4 +1,4 @@
-# [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+# [Palindrome Number][title]
 
 ## Description
 
@@ -51,5 +51,14 @@ public boolean isPalindrome(int x) {
     }
     return halfReverseX == x || halfReverseX / 10 == x;
 }
-
 ```
+
+
+## 结语
+
+如果你同我一样热爱数据结构、算法、LeetCode，可以关注我GitHub上的LeetCode题解：[awesome-java-leetcode][ajl]
+
+
+
+[title]: https://leetcode.com/problems/palindrome-number
+[ajl]: https://github.com/Blankj/awesome-java-leetcode

@@ -14,6 +14,7 @@
 |14|[Longest Common Prefix][014]|String|
 |19|[Remove Nth Node From End of List][019]|Linked List, Two Pointers|
 |20|[Valid Parentheses][020]|Stack, String|
+|21|[Merge Two Sorted Lists][021]|Linked List|
 
 
 ## Medium
@@ -42,3 +43,4 @@
 [014]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/014/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
 [020]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/020/README.md
+[021]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/021/README.md

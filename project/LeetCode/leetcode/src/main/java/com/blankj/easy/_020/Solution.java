@@ -7,7 +7,7 @@ import java.util.HashMap;
  * <pre>
  *     author: Blankj
  *     blog  : http://blankj.com
- *     time  : 2017/04/21
+ *     time  : 2017/04/28
  *     desc  :
  * </pre>
  */
@@ -35,5 +35,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
+        System.out.println(solution.isValid("()[]{}({[]})"));
+        System.out.println(solution.isValid("(])]"));
     }
 }

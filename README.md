@@ -17,6 +17,7 @@
 |21|[Merge Two Sorted Lists][021]|Linked List|
 |26|[Remove Duplicates from Sorted Array][026]|Array, Two Pointers|
 |27|[Remove Element][027]|Array, Two Pointers|
+|28|[Remove Element][028]|Array, Two Pointers|
 
 
 ## Medium
@@ -48,3 +49,4 @@
 [021]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/021/README.md
 [026]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/026/README.md
 [027]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/027/README.md
+[028]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/028/README.md

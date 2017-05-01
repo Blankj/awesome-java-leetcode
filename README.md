@@ -17,7 +17,7 @@
 |21|[Merge Two Sorted Lists][021]|Linked List|
 |26|[Remove Duplicates from Sorted Array][026]|Array, Two Pointers|
 |27|[Remove Element][027]|Array, Two Pointers|
-|28|[Remove Element][028]|Array, Two Pointers|
+|28|[Implement strStr()][028]|Two Pointers, String|
 
 
 ## Medium

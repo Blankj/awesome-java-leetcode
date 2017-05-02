@@ -8,16 +8,15 @@
 |:------------- |:------------- |:------------- |
 |1|[Two Sum][001]|Array, Hash Table|
 |7|[Reverse Integer][007]|Math|
-|8|[String to Integer (atoi)][008]|Math, String|
 |9|[Palindrome Number][009]|Math|
 |13|[Roman to Integer][013]|Math, String|
 |14|[Longest Common Prefix][014]|String|
-|19|[Remove Nth Node From End of List][019]|Linked List, Two Pointers|
 |20|[Valid Parentheses][020]|Stack, String|
 |21|[Merge Two Sorted Lists][021]|Linked List|
 |26|[Remove Duplicates from Sorted Array][026]|Array, Two Pointers|
 |27|[Remove Element][027]|Array, Two Pointers|
 |28|[Implement strStr()][028]|Two Pointers, String|
+|38|[Count and Say][028]|String|
 
 
 ## Medium
@@ -25,6 +24,8 @@
 |#|Title|Tag|
 |:------------- |:------------- |:------------- |
 |2|Add Two Numbers|Linked List, Math|
+|8|[String to Integer (atoi)][008]|Math, String|
+|19|[Remove Nth Node From End of List][019]|Linked List, Two Pointers|
 
 
 ## Hard
@@ -50,3 +51,4 @@
 [026]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/026/README.md
 [027]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/027/README.md
 [028]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/028/README.md
+[038]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/038/README.md

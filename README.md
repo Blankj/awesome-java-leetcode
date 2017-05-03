@@ -17,6 +17,7 @@
 |27|[Remove Element][027]|Array, Two Pointers|
 |28|[Implement strStr()][028]|Two Pointers, String|
 |38|[Count and Say][028]|String|
+|58|[Length of Last Word][058]|String|
 
 
 ## Medium
@@ -52,3 +53,4 @@
 [027]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/027/README.md
 [028]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/028/README.md
 [038]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/038/README.md
+[058]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/058/README.md

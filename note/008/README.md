@@ -25,7 +25,7 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 
 ## 思路
 
-题目大意就是把一个字符串转为整型，但要注意所给的要求，先去除最前面的空格，然后判断正负数，注意正数可能包含`+`，如果之后存在非数字或全为空则返回`0`，而如果合法的值超过int表示的最大范围，则根据正负号返回`INT_MAX`或`INT_MIN`。
+题意是把一个字符串转为整型，但要注意所给的要求，先去除最前面的空格，然后判断正负数，注意正数可能包含`+`，如果之后存在非数字或全为空则返回`0`，而如果合法的值超过int表示的最大范围，则根据正负号返回`INT_MAX`或`INT_MIN`。
 
 ``` java
 public class Solution {

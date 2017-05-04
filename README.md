@@ -16,7 +16,8 @@
 |26|[Remove Duplicates from Sorted Array][026]|Array, Two Pointers|
 |27|[Remove Element][027]|Array, Two Pointers|
 |28|[Implement strStr()][028]|Two Pointers, String|
-|38|[Count and Say][028]|String|
+|35|[Search Insert Position][035]|String|
+|38|[Count and Say][038]|String|
 |58|[Length of Last Word][058]|String|
 
 
@@ -52,5 +53,6 @@
 [026]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/026/README.md
 [027]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/027/README.md
 [028]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/028/README.md
+[035]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/035/README.md
 [038]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/038/README.md
 [058]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/058/README.md

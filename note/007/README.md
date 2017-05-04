@@ -29,8 +29,7 @@ The input is assumed to be a 32-bit signed integer. Your function should **retur
 
 ## 思路
 
-题意是给你一个整型数，求它的逆序整型数，而且有个小坑点，当它的逆序整型数溢出的话，那么就返回0
-，用我们代码表示的话可以求得结果保存在long中，最后把结果和整型的两个范围比较即可。
+题意是给你一个整型数，求它的逆序整型数，而且有个小坑点，当它的逆序整型数溢出的话，那么就返回0，用我们代码表示的话可以求得结果保存在long中，最后把结果和整型的两个范围比较即可。
 
 ``` java
 public class Solution {

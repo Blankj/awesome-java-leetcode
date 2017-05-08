@@ -20,6 +20,7 @@
 |38|[Count and Say][038]|String|
 |53|[Maximum Subarray][053]|Array, Dynamic Programming, Divide and Conquer|
 |58|[Length of Last Word][058]|String|
+|66|[Plus One][066]|Array, Math|
 
 
 ## Medium
@@ -58,3 +59,4 @@
 [038]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/038/README.md
 [053]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/053/README.md
 [058]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/058/README.md
+[066]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/066/README.md

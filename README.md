@@ -18,6 +18,7 @@
 |28|[Implement strStr()][028]|Two Pointers, String|
 |35|[Search Insert Position][035]|String|
 |38|[Count and Say][038]|String|
+|53|[Maximum Subarray][053]|Array, Dynamic Programming, Divide and Conquer|
 |58|[Length of Last Word][058]|String|
 
 
@@ -55,4 +56,5 @@
 [028]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/028/README.md
 [035]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/035/README.md
 [038]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/038/README.md
+[053]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/053/README.md
 [058]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/058/README.md

@@ -1,7 +1,4 @@
-package com.blankj.easy._019;
-
-import java.util.Arrays;
-import java.util.HashMap;
+package com.blankj.medium._019;
 
 /**
  * <pre>

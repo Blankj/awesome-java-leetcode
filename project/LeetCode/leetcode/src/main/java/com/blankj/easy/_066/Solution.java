@@ -1,7 +1,5 @@
 package com.blankj.easy._066;
 
-import java.io.File;
-
 /**
  * <pre>
  *     author: Blankj

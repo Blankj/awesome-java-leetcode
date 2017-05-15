@@ -11,10 +11,18 @@ Compute and return the square root of x.
 
 ## 思路
 
-
+题意是求平方根，参考[牛顿迭代法求平方根](https://wenku.baidu.com/view/6b74c622bcd126fff7050bfe.html)，我们就可以高效低实现了。
 
 ``` java
-
+public class Solution {
+    public int mySqrt(int x) {
+        long n = x;
+        while (n * n > x) {
+            n = (n + x / n) >> 1;
+        }
+        return (int) n;
+    }
+}
 ```
 
 

@@ -21,7 +21,9 @@
 |53|[Maximum Subarray][053]|Array, Dynamic Programming, Divide and Conquer|
 |58|[Length of Last Word][058]|String|
 |66|[Plus One][066]|Array, Math|
+|67|[Add Binary][067]|Math, String|
 |69|[Sqrt(x)][069]|Binary Search, Math|
+|70|[Climbing Stairs][070]|Dynamic Programming|
 
 
 ## Medium
@@ -61,4 +63,6 @@
 [053]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/053/README.md
 [058]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/058/README.md
 [066]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/066/README.md
+[067]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/067/README.md
 [069]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/069/README.md
+[070]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/070/README.md

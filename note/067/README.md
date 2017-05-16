@@ -1,4 +1,4 @@
-# [Plus One][title]
+# [Add Binary][title]
 
 ## Description
 
@@ -14,7 +14,7 @@ Return `"100"`.
 
 ## 思路
 
-题意是给你两个二进制串，求其和的二进制串。
+题意是给你两个二进制串，求其和的二进制串。我们就按照小学算数那么来做，用`carry`表示进位，从后往前算，依次往前，每算出一位就插入到最前面即可，直到把两个二进制串都遍历完即可。
 
 ``` java
 public class Solution {
@@ -52,5 +52,5 @@ public class Solution {
 
 
 
-[title]: https://leetcode.com/problems/plus-one
+[title]: https://leetcode.com/problems/add-binary
 [ajl]: https://github.com/Blankj/awesome-java-leetcode

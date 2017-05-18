@@ -24,6 +24,7 @@
 |67|[Add Binary][067]|Math, String|
 |69|[Sqrt(x)][069]|Binary Search, Math|
 |70|[Climbing Stairs][070]|Dynamic Programming|
+|83|[Remove Duplicates from Sorted List][083]|Linked List|
 
 
 ## Medium
@@ -66,3 +67,4 @@
 [067]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/067/README.md
 [069]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/069/README.md
 [070]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/070/README.md
+[083]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/083/README.md

@@ -1,5 +1,7 @@
 package com.blankj.easy._021;
 
+import com.blankj.structure.ListNode;
+
 /**
  * <pre>
  *     author: Blankj
@@ -10,27 +12,6 @@ package com.blankj.easy._021;
  */
 
 public class Solution {
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
-        @Override
-        public String toString() {
-            String str = "[" + String.valueOf(val);
-            ListNode p = next;
-            while (p != null) {
-                str += ", " + String.valueOf(p.val);
-                p = p.next;
-            }
-            return str + "]";
-        }
-    }
-
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
         ListNode temp = head;
@@ -50,6 +31,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
+        ;
         ListNode listNode00 = new ListNode(1);
         ListNode listNode01 = new ListNode(3);
         ListNode listNode02 = new ListNode(5);
@@ -70,8 +52,10 @@ public class Solution {
         listNode12.next = listNode13;
         listNode13.next = listNode14;
         listNode14.next = null;
-        System.out.println(listNode00.toString());
-        System.out.println(listNode10.toString());
-        System.out.println(solution.mergeTwoLists(listNode00, listNode10).toString());
+        ListNode listNode0 = ListNode.createTestData(new int[]{1, 3, 5, 7, 9});
+        ListNode listNode1 = ListNode.createTestData(new int[]{2, 4, 6, 8, 10});
+        System.out.println(listNode0.toString());
+        System.out.println(listNode1.toString());
+        System.out.println(solution.mergeTwoLists(listNode0, listNode1).toString());
     }
 }

@@ -25,6 +25,7 @@
 |69|[Sqrt(x)][069]|Binary Search, Math|
 |70|[Climbing Stairs][070]|Dynamic Programming|
 |83|[Remove Duplicates from Sorted List][083]|Linked List|
+|88|[Merge Sorted Array][088]|Array, Two Pointers|
 
 
 ## Medium
@@ -47,13 +48,12 @@
 
 [project]: https://github.com/Blankj/awesome-java-leetcode/tree/master/project
 [note]: https://github.com/Blankj/awesome-java-leetcode/tree/master/note
+
 [001]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/001/README.md
 [007]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/007/README.md
-[008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [009]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/009/README.md
 [013]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/013/README.md
 [014]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/014/README.md
-[019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
 [020]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/020/README.md
 [021]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/021/README.md
 [026]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/026/README.md
@@ -68,3 +68,7 @@
 [069]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/069/README.md
 [070]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/070/README.md
 [083]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/083/README.md
+[088]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/088/README.md
+
+[008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
+[019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md

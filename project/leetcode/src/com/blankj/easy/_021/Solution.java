@@ -31,7 +31,6 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        ;
         ListNode listNode00 = new ListNode(1);
         ListNode listNode01 = new ListNode(3);
         ListNode listNode02 = new ListNode(5);
@@ -52,10 +51,10 @@ public class Solution {
         listNode12.next = listNode13;
         listNode13.next = listNode14;
         listNode14.next = null;
-        ListNode listNode0 = ListNode.createTestData(new int[]{1, 3, 5, 7, 9});
-        ListNode listNode1 = ListNode.createTestData(new int[]{2, 4, 6, 8, 10});
-        System.out.println(listNode0.toString());
-        System.out.println(listNode1.toString());
-        System.out.println(solution.mergeTwoLists(listNode0, listNode1).toString());
+        ListNode listNode0 = ListNode.createTestData("[1,3,5,7,9]");
+        ListNode listNode1 = ListNode.createTestData("[2,4,6,8,10]");
+        ListNode.print(listNode0);
+        ListNode.print(listNode1);
+        ListNode.print(solution.mergeTwoLists(listNode0, listNode1));
     }
 }

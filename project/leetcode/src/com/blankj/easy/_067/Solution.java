@@ -44,7 +44,7 @@ public class Solution {
 //            sb.insert(0, (char) (carry % 2 + '0'));
 //            carry >>= 1;
 //        }
-//        return sb.toString();
+//        return sb.print();
 //    }
 
     public static void main(String[] args) {

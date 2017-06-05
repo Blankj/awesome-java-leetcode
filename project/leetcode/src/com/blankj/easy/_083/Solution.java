@@ -27,7 +27,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.deleteDuplicates(ListNode.createTestData(new int[]{1, 1, 2})));
-        System.out.println(solution.deleteDuplicates(ListNode.createTestData(new int[]{1, 1, 2, 3, 3})));
+        ListNode.print(solution.deleteDuplicates(ListNode.createTestData("[1,1,2]")));
+        ListNode.print(solution.deleteDuplicates(ListNode.createTestData("[1,1,2,3,3]")));
     }
 }

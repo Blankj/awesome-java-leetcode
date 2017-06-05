@@ -17,26 +17,34 @@ public class ListNode {
         val = x;
     }
 
-    @Override
-    public String toString() {
-        String str = "[" + String.valueOf(val);
-        ListNode p = next;
-        while (p != null) {
-            str += ", " + String.valueOf(p.val);
-            p = p.next;
-        }
-        return str + "]";
-    }
-
-    public static ListNode createTestData(int[] data) {
-        int len =  len = data.length;
-        if (len == 0) return null;
+    /**
+     * 创建测试数据
+     *
+     * @param data [XX,XX,XX]
+     * @return {@link ListNode}
+     */
+    public static ListNode createTestData(String data) {
+        if (data.equals("[]")) return null;
+        data = data.substring(1, data.length() - 1);
+        String[] split = data.split(",");
+        int len = split.length;
         ListNode[] listNode = new ListNode[len + 1];
-        listNode[0] = new ListNode(data[0]);
+        listNode[0] = new ListNode(Integer.valueOf(split[0]));
         for (int i = 1; i < len; i++) {
-            listNode[i] = new ListNode(data[i]);
+            listNode[i] = new ListNode(Integer.valueOf(split[i]));
             listNode[i - 1].next = listNode[i];
         }
         return listNode[0];
+    }
+
+    public static void print(ListNode listNode) {
+        if (listNode == null) System.out.println("null");
+        StringBuilder str = new StringBuilder("[" + String.valueOf(listNode.val));
+        ListNode p = listNode.next;
+        while (p != null) {
+            str.append(",").append(String.valueOf(p.val));
+            p = p.next;
+        }
+        System.out.println(str.append("]"));
     }
 }

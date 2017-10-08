@@ -8,7 +8,6 @@ package com.blankj.easy._027;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int removeElement(int[] nums, int val) {
         int tail = 0;

@@ -34,7 +34,7 @@ Try to do this in one pass.
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode pre = head;
         ListNode afterPreN = head;

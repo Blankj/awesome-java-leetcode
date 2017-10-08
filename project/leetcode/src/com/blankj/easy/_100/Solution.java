@@ -11,15 +11,21 @@ import com.blankj.structure.TreeNode;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) return true;
+        if (p == null || q == null) return false;
+        if (p.val == q.val) {
+            return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        }
         return false;
     }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        TreeNode.print(TreeNode.createTestData("[1,2,2,null,3,null,3]"));
-        System.out.println();
+        System.out.println(solution.isSameTree(
+                TreeNode.createTestData("[1,2,2,null,3,null,3]"),
+                TreeNode.createTestData("[1,2,2,null,3,null,3]"))
+        );
     }
 }

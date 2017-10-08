@@ -60,7 +60,6 @@ public class TreeNode {
      */
     public static void print(TreeNode root) {
         print(root, 0);
-
     }
 
     private static void print(TreeNode node, int deep) {
@@ -71,7 +70,7 @@ public class TreeNode {
         }
         print(node.right, deep + 1);
         printSpace(deep);
-        printNode(node.val, 5);
+        printNode(node.val);
         print(node.left, deep + 1);
     }
 
@@ -81,9 +80,9 @@ public class TreeNode {
         }
     }
 
-    private static void printNode(int val, int len) {
+    private static void printNode(int val) {
         StringBuilder res = new StringBuilder(val + "<");
-        int spaceNum = len - res.length();
+        int spaceNum = space.length() - res.length();
         for (int i = 0; i < spaceNum; i++) {
             res.append(" ");
         }

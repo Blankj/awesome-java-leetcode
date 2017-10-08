@@ -8,7 +8,6 @@ package com.blankj.easy._014;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public String longestCommonPrefix(String[] strs) {
         int len = strs.length;

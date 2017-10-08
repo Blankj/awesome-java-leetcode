@@ -19,7 +19,7 @@ If you have figured out the O(*n*) solution, try coding another solution using t
 题意是求数组中子数组的最大和，这种最优问题一般第一时间想到的就是动态规划，我们可以这样想，当部分序列和大于零的话就一直加下一个元素即可，并和当前最大值进行比较，如果出现部分序列小于零的情况，那肯定就是从当前元素算起。其转移方程就是`dp[i] = nums[i] + (dp[i - 1] > 0 ? dp[i - 1] : 0);`，由于我们不需要保留dp状态，故可以优化空间复杂度为1，即`dp = nums[i] + (dp > 0 ? dp : 0);`。
 
 ``` java
-public class Solution {
+class Solution {
     public int maxSubArray(int[] nums) {
         int len = nums.length, dp = nums[0], max = dp;
         for (int i = 1; i < len; ++i) {
@@ -36,7 +36,7 @@ public class Solution {
 题目也给了我们另一种思路，就是分治，所谓分治就是把问题分割成更小的，最后再合并即可，我们把`nums`一分为二先，那么就有两种情况，一种最大序列包括中间的值，一种就是不包括，也就是在左边或者右边；当最大序列在中间的时候那我们就把它两侧的最大和算出即可；当在两侧的话就继续分治即可。
 
 ``` java
-public class Solution {
+class Solution {
     public int maxSubArray(int[] nums) {
         return helper(nums, 0, nums.length - 1);
     }

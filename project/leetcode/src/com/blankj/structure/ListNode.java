@@ -38,7 +38,10 @@ public class ListNode {
     }
 
     public static void print(ListNode listNode) {
-        if (listNode == null) System.out.println("null");
+        if (listNode == null) {
+            System.out.println("null");
+            return;
+        }
         StringBuilder str = new StringBuilder("[" + String.valueOf(listNode.val));
         ListNode p = listNode.next;
         while (p != null) {

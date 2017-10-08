@@ -8,7 +8,6 @@ package com.blankj.easy._007;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int reverse(int x) {
         long res = 0;

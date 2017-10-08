@@ -8,7 +8,6 @@ package com.blankj.medium._019;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
 
     static class ListNode {

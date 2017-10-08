@@ -23,7 +23,7 @@ return [0, 1].
 题意是让你从给定的数组中找到两个元素的和为指定值的两个索引，最容易的当然是循环两次，复杂度为`O(n^2)`，首次提交居然是2ms，打败了100%的提交，谜一样的结果，之后再次提交就再也没跑到过2ms了。
 
 ``` java
-public class Solution {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         int st = 0, end = nums.length;
         for (int i = 0; i < end; ++i) {

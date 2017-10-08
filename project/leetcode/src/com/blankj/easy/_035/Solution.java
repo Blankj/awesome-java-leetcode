@@ -8,7 +8,6 @@ package com.blankj.easy._035;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int searchInsert(int[] nums, int target) {
         int left = 0, right = nums.length - 1, mid = (right + left) >> 1;

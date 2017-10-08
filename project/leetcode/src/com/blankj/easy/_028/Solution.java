@@ -8,7 +8,6 @@ package com.blankj.easy._028;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int strStr(String haystack, String needle) {
         int l1 = haystack.length(), l2 = needle.length(), l3 = l1 - l2;

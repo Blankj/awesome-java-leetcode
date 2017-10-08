@@ -10,7 +10,6 @@ import com.blankj.structure.ListNode;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) return head;

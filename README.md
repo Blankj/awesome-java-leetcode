@@ -26,6 +26,7 @@
 |70|[Climbing Stairs][070]|Dynamic Programming|
 |83|[Remove Duplicates from Sorted List][083]|Linked List|
 |88|[Merge Sorted Array][088]|Array, Two Pointers|
+|100|[Same Tree][100]|Tree, Depth-first Search|
 
 
 ## Medium
@@ -69,6 +70,7 @@
 [070]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/070/README.md
 [083]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/083/README.md
 [088]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/088/README.md
+[100]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/100/README.md
 
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md

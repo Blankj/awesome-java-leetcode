@@ -24,7 +24,7 @@ Note: The sequence of integers will be represented as a string.
 题意是数和说，根据如下序列`1, 11, 21, 1211, 111221, ...`，求第n个数，规则很简单,就是数和说，数就是数这个数数字有几个，说就是说这个数，所以`1`就是1个1：`11`,`11`就是有2个1：`21`，`21`就是1个2、1个1：`1211`，可想而知后面就是`111221`，思路的话就是按这个逻辑模拟出来即可。
 
 ``` java
-public class Solution {
+class Solution {
     public String countAndSay(int n) {
         String str = "1";
         while (--n > 0) {

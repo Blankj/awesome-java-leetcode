@@ -10,7 +10,6 @@ import com.blankj.structure.ListNode;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);

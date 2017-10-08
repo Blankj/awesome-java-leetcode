@@ -8,7 +8,6 @@ package com.blankj.easy._026;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int removeDuplicates(int[] nums) {
         int len = nums.length;

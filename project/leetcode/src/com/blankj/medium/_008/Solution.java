@@ -8,7 +8,6 @@ package com.blankj.medium._008;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int myAtoi(String str) {
         int i = 0, ans = 0, sign = 1, len = str.length();

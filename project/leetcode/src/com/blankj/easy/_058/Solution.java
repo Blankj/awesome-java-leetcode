@@ -8,7 +8,6 @@ package com.blankj.easy._058;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int lengthOfLastWord(String s) {
         int p = s.length() - 1;

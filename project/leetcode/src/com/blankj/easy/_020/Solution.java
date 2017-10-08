@@ -8,7 +8,6 @@ package com.blankj.easy._020;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public boolean isValid(String s) {
         int len = s.length();

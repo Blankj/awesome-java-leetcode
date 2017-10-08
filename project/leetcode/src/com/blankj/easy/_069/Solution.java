@@ -8,7 +8,6 @@ package com.blankj.easy._069;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int mySqrt(int x) {
         long n = x;

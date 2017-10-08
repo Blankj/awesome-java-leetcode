@@ -27,7 +27,7 @@ Your function should return length = `2`, with the first two elements of *nums* 
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
         ListNode temp = head;

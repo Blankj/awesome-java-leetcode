@@ -8,7 +8,6 @@ package com.blankj.easy._067;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();

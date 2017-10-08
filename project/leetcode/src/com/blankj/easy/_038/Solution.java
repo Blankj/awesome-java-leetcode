@@ -8,7 +8,6 @@ package com.blankj.easy._038;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public String countAndSay(int n) {
         String str = "1";

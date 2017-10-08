@@ -8,7 +8,6 @@ package com.blankj.easy._070;
  *     desc  :
  * </pre>
  */
-
 public class Solution {
     public int climbStairs(int n) {
         int a = 1, b = 1;

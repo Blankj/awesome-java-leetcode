@@ -20,7 +20,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 那么我们可以利用map来完成罗马数字的7个数字符号：I、V、X、L、C、D、M和整数的映射关系，然后根据上面的解释来模拟完成即可。
 
 ``` java
-public class Solution {
+class Solution {
     public int romanToInt(String s) {
         Map<Character, Integer> map = new HashMap<>();
         map.put('I', 1);

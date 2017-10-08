@@ -21,7 +21,7 @@ Here are few examples.
 题意是让你从一个没有重复元素的已排序数组中找到插入位置的索引。因为数组已排序，所以我们可以想到二分查找法，因为查找到的条件是找到第一个等于或者大于`target`的元素的位置，所以二分法略作变动即可。
 
 ``` java
-public class Solution {
+class Solution {
     public int searchInsert(int[] nums, int target) {
         int left = 0, right = nums.length - 1, mid = (right + left) >> 1;
         while (left <= right) {

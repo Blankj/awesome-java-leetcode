@@ -22,7 +22,7 @@ return `5`.
 题意是让你从一个只包含大小字母和空格字符的字符串中得到最后一个单词的长度，很简单，我们倒序遍历，先得到最后一个非空格字符的索引，然后再得到它前面的空格字符索引，两者相减即可。当然，我们使用API来完成这件事更加方便，只需一行代码`return s.trim().length() - s.trim().lastIndexOf(" ") - 1;`，但我相信作者出这道题的目的肯定不是考你API的使用，所以我们还是用自己的思路来实现。
 
 ``` java
-public class Solution {
+class Solution {
     public int lengthOfLastWord(String s) {
         int p = s.length() - 1;
         while (p >= 0 && s.charAt(p) == ' ') p--;

@@ -27,6 +27,9 @@
 |83|[Remove Duplicates from Sorted List][083]|Linked List|
 |88|[Merge Sorted Array][088]|Array, Two Pointers|
 |100|[Same Tree][100]|Tree, Depth-first Search|
+|101|[Symmetric Tree][101]|Tree, Depth-first Search, Breadth-first Search|
+|104|[Maximum Depth of Binary Tree][104]|Tree, Depth-first Search|
+|107|[Binary Tree Level Order Traversal II][107]|Tree, Breadth-first Search|
 
 
 ## Medium
@@ -71,6 +74,9 @@
 [083]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/083/README.md
 [088]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/088/README.md
 [100]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/100/README.md
+[101]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/101/README.md
+[104]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/104/README.md
+[107]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/107/README.md
 
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md

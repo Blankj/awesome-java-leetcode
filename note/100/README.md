@@ -11,7 +11,7 @@ Two binary trees are considered equal if they are structurally identical and the
 
 ## 思路
 
-题意是
+题意是比较两棵二叉树是否相同，那么我们就深搜比较各个节点即可。
 
 ``` java
 /**

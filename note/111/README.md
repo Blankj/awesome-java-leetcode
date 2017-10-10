@@ -1,17 +1,17 @@
-# [Balanced Binary Tree][title]
+# [Minimum Depth of Binary Tree][title]
 
 ## Description
 
-Given a binary tree, determine if it is height-balanced.
+Given a binary tree, find its minimum depth.
 
-For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
 
-**Tags:** Tree, Depth-first Search
+**Tags:** Tree, Depth-first Search, Breadth-first Search
 
 
-## 思路
+## 思路0
 
-题意是判断一棵二叉树是否是高度平衡的，所谓二叉树高度平衡指的是二叉树的每个节点的两棵子树的高度差都不超过1，那么我们只需计算左右子树的高度，判断其高度差是否不超过1即可，如果超过1，就代表其不是高度平衡的，立即返回不是即可，我这里用返回`-1`代表不是。
+题意是查找二叉树的最小深度，也就是找到从根结点到叶子节点的最小深度，最容易想到的当然是深搜，如果节点的左右深度都不是0的话，说明该节点含有左右子树，所以它的最小高度就是1加上其左右子树高度较小者，否则如果左子树为空或者右子树为空或者两者都为空，那么就是1加上非空子树高度。
 
 
 ``` java
@@ -25,18 +25,49 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
  * }
  */
 class Solution {
-    public boolean isBalanced(TreeNode root) {
-        return helper(root) != -1;
+    public int minDepth(TreeNode root) {
+        if (root == null) return 0;
+        int l = minDepth(root.left);
+        int r = minDepth(root.right);
+        if (l != 0 && r != 0) return 1 + Math.min(l, r);
+        return l + r + 1;
     }
+}
+```
 
-    private int helper(TreeNode node) {
-        if (node == null) return 0;
-        int l = helper(node.left);
-        if (l == -1) return -1;
-        int r = helper(node.right);
-        if (r == -1) return -1;
-        if (Math.abs(l - r) > 1) return -1;
-        return 1 + Math.max(l, r);
+## 思路1
+
+第二种思路就是利用宽搜了，搜索到该层有叶子节点，那就返回该层宽度即可。
+
+``` java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public int minDepth(TreeNode root) {
+        if (root == null) return 0;
+        LinkedList<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        int ans = 1;
+        while (!q.isEmpty()) {
+            int size = q.size();
+            for (int i = 0; i < size; ++i) {
+                TreeNode node = q.remove();
+                if (node.left == null && node.right == null) {
+                    return ans;
+                }
+                if (node.left != null) q.add(node.left);
+                if (node.right != null) q.add(node.right);
+            }
+            ++ans;
+        }
+        return 520;
     }
 }
 ```

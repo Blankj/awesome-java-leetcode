@@ -35,6 +35,7 @@
 |108|[Convert Sorted Array to Binary Search Tree][108]|Tree, Depth-first Search|
 |110|[Balanced Binary Tree][110]|Tree, Depth-first Search|
 |111|[Minimum Depth of Binary Tree][111]|Tree, Depth-first Search, Breadth-first Search|
+|112|[Path Sum][112]|Tree, Depth-first Search|
 
 
 ## Medium
@@ -85,6 +86,7 @@
 [108]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/108/README.md
 [110]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/110/README.md
 [111]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/111/README.md
+[112]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/112/README.md
 
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md

@@ -36,6 +36,8 @@
 |110|[Balanced Binary Tree][110]|Tree, Depth-first Search|
 |111|[Minimum Depth of Binary Tree][111]|Tree, Depth-first Search, Breadth-first Search|
 |112|[Path Sum][112]|Tree, Depth-first Search|
+|118|[Pascal's Triangle][118]|Array|
+|119|[Pascal's Triangle II][119]|Array|
 
 
 ## Medium
@@ -87,6 +89,8 @@
 [110]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/110/README.md
 [111]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/111/README.md
 [112]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/112/README.md
+[118]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/118/README.md
+[119]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/119/README.md
 
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md

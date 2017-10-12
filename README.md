@@ -56,7 +56,7 @@
 
 |#|Title|Tag|
 |:------------- |:------------- |:------------- |
-|4|Median of Two Sorted Arrays|Binary Search, Array, Divide and Conquer|
+|4|[Median of Two Sorted Arrays][004]|Array, Binary Search, Divide and Conquer|
 
 
 

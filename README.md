@@ -47,6 +47,7 @@
 |#|Title|Tag|
 |:------------- |:------------- |:------------- |
 |2|[Add Two Numbers][002]|Linked List, Math|
+|3|[Longest Substring Without Repeating Characters][003]|Hash Table, Two Pointers, String|
 |8|[String to Integer (atoi)][008]|Math, String|
 |19|[Remove Nth Node From End of List][019]|Linked List, Two Pointers|
 
@@ -97,6 +98,7 @@
 [122]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/122/README.md
 
 [002]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/002/README.md
+[003]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/003/README.md
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
 

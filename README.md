@@ -60,6 +60,7 @@
 |3|[Longest Substring Without Repeating Characters][003]|Hash Table, Two Pointers, String|
 |8|[String to Integer (atoi)][008]|Math, String|
 |19|[Remove Nth Node From End of List][019]|Linked List, Two Pointers|
+|554|[Brick Wall][554]|Hash Table|
 
 
 ## Hard

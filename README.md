@@ -2,7 +2,17 @@
 
 我如今是一名Android Developer，大学的我曾是一名ACMer，为了不想让算法淡出我的记忆，故重拾LeetCode之Algorithm，语言选择的是Java，题库会一点点完善起来，按简单，中等，困难分类，相应难度下按题号排序，工程代码在[project][project]目录中，相关解题都在[note][note]目录中，欢迎star。
 
-如今有机会面试Facebook，新的一轮动力刷起来，即使没进那也至少努力过了，不过Facebook每年都有机肥去面试，所以更要加油了。
+如今有机会面试Facebook，附上LeetCode上Facebook的面试题目序号，希望可以帮助到以后想入Facebook的小伙伴:-)
+
+```
+1,10,13,15,17,20,23,25,26,28,33,38,43,44,49,50,56,57,67,68,69,71,75,76
+78,79,80,85,88,90,91,98,102,117,121,125,127,128,133,139,146,157,158,161
+168,173,200,206,208,209,210,211,215,218,221,234,235,236,238,252,253,257
+261,265,269,273,274,275,277,278,282,283,285,286,297,301,311,314,325,334
+341,377,380,398,404,410,461,477,494,523,525,534,535,543,554
+```
+
+如果想知道更多公司LeetCode面试题，可以参看[Companies.md][companies]。
 
 ## Easy
 
@@ -63,6 +73,7 @@
 
 [project]: https://github.com/Blankj/awesome-java-leetcode/tree/master/project
 [note]: https://github.com/Blankj/awesome-java-leetcode/tree/master/note
+[companies]: https://github.com/Blankj/awesome-java-leetcode/blob/master/Companies.md
 
 [001]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/001/README.md
 [007]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/007/README.md

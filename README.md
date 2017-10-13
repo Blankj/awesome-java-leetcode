@@ -50,6 +50,7 @@
 |119|[Pascal's Triangle II][119]|Array|
 |121|[Best Time to Buy and Sell Stock][121]|Array, Dynamic Programmin|
 |122|[Best Time to Buy and Sell Stock II][122]|Array, Greedy|
+|543|[Diameter of Binary Tree][543]|Tree|
 
 
 ## Medium
@@ -108,10 +109,12 @@
 [119]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/119/README.md
 [121]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/121/README.md
 [122]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/122/README.md
+[543]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/543/README.md
 
 [002]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/002/README.md
 [003]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/003/README.md
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
+[554]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/554/README.md
 
 [004]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/004/README.md

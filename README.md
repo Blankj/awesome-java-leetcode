@@ -60,6 +60,7 @@
 |2|[Add Two Numbers][002]|Linked List, Math|
 |3|[Longest Substring Without Repeating Characters][003]|Hash Table, Two Pointers, String|
 |8|[String to Integer (atoi)][008]|Math, String|
+|15|[3Sum][015]|Array, Two Pointers|
 |19|[Remove Nth Node From End of List][019]|Linked List, Two Pointers|
 |554|[Brick Wall][554]|Hash Table|
 
@@ -115,6 +116,7 @@
 [002]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/002/README.md
 [003]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/003/README.md
 [008]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/008/README.md
+[015]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/015/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
 [554]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/554/README.md
 

@@ -1,10 +1,10 @@
-package com.blankj.easy._010;
+package com.blankj.hard._010;
 
 /**
  * <pre>
  *     author: Blankj
  *     blog  : http://blankj.com
- *     time  : 2017/04/24
+ *     time  : 2017/10/13
  *     desc  :
  * </pre>
  */

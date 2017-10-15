@@ -16,21 +16,18 @@ The brackets must close in the correct order, `"()"` and `"()[]{}"` are all vali
 ``` java
 class Solution {
     public boolean isValid(String s) {
-        int len = s.length();
-        char[] stack = new char[len + 1];
+        char[] stack = new char[s.length() + 1];
         int top = 1;
-        for (int i = 0; i < len; ++i) {
-            char c = s.charAt(i);
-            if (c == '(' || c == '[' || c == '{')
-                stack[top++] = c;
-            else if (c == ')' && stack[top - 1] != '(')
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '[' || c == '{') {
+                stack[top++] = c; 
+            } else if (c == ')' && stack[--top] != '(') {
                 return false;
-            else if (c == ']' && stack[top - 1] != '[')
+            } else if (c == ']' && stack[--top] != '[') {
                 return false;
-            else if (c == '}' && stack[top - 1] != '{')
+            } else if (c == '}' && stack[--top] != '{') {
                 return false;
-            else
-                --top;
+            }
         }
         return top == 1;
     }

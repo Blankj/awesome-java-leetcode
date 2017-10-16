@@ -13,7 +13,7 @@ Two binary trees are considered equal if they are structurally identical and the
 
 题意是比较两棵二叉树是否相同，那么我们就深搜比较各个节点即可。
 
-``` java
+```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

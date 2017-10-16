@@ -13,7 +13,7 @@ Returns the index of the first occurrence of needle in haystack, or -1 if needle
 
 题意是从主串中找到子串的索引，如果找不到则返回-1，我们只需要遍历主串长度减子串长度即可，利用substring比较即可。
 
-``` java
+```java
 class Solution {
     public int strStr(String haystack, String needle) {
         int l1 = haystack.length(), l2 = needle.length(), l3 = l1 - l2;

@@ -11,7 +11,7 @@ Merge k sorted linked lists and return it as one sorted list. Analyze and descri
 
 题意是合并多个已排序的链表，分析并描述其复杂度，我们可以用分治法来两两合并他们，假设`k`为总链表个数，`N`为总元素个数，那么其时间复杂度为`O(Nlogk)`。
 
-``` java
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -56,7 +56,7 @@ class Solution {
 
 还有另一种思路是利用优先队列，该数据结构用到的是堆排序，所以对总链表个数为`k`的复杂度为`logk`，总元素为个数为`N`的话，其时间复杂度也为`O(Nlogk)`。
 
-``` java
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {

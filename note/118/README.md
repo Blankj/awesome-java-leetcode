@@ -24,7 +24,7 @@ Return
 
 题意是给出行数，输出帕斯卡尔三角形，很简单的模拟，就不多说了。
 
-``` java
+```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         if (numRows == 0) return Collections.emptyList();

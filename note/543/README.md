@@ -27,7 +27,7 @@ Return **3**, which is the length of the path [4,2,1,3] or [5,2,1,3].
 
 题意是让你算出二叉树中最远的两个节点的距离，分别计算左右子树的最大高度，然后不断迭代出其和的最大值就是最终结果。
 
-``` java
+```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

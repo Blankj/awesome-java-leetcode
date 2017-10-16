@@ -19,7 +19,7 @@ Given `"pwwkew"`, the answer is `"wke"`, with the length of 3. Note that the ans
 
 题意是计算不带重复字符的最长子字符串的长度，开辟一个hash数组来存储该字符上次出现的位置，比如`hash[a] = 3`就是代表`a`字符前一次出现的索引在3，遍历该字符串，获取到上次出现的最大索引（只能向前，不能退后），与当前的索引做差获取的就是本次所需长度，从中迭代出最大值就是最终答案。
 
-``` java
+```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int len;

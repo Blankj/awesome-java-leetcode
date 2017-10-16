@@ -19,7 +19,7 @@ Given an array where elements are sorted in ascending order, convert it to a hei
 所以我们可以用递归来构建一棵二叉搜索树，每次把数组分为两半，把数组中间的值作为其父节点，然后把数组的左右两部分继续构造其左右子树。
 
 
-``` java
+```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

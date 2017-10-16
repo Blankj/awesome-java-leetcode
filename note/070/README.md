@@ -15,7 +15,7 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 题意是爬楼梯，每次你只能爬一步或者两步，问到顶层共有多少种方案。我们假设到顶层共有`f(n)`种，那么`f(n) = f(n - 1) + f(n - 2)`肯定是成立的，意思就是我们迈向顶层的最后一步是在倒数第一级台阶或者在倒数第二级台阶。算法我对空间复杂度进行了优化，因为在迭代过程中只需要两个变量即可。
 
-``` java
+```java
 class Solution {
     public int climbStairs(int n) {
         int a = 1, b = 1;

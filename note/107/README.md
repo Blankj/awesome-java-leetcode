@@ -33,7 +33,7 @@ return its bottom-up level order traversal as:
 题意是从下往上按层遍历二叉树，每一层是从左到右，按层遍历，很明显，宽搜第一时间符合，因为是从下往上，所以插入的时候每次插到链表头即可。
 
 
-``` java
+```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -69,7 +69,7 @@ class Solution {
 
 另一种思路就是深搜，深搜的时候同时记录深度，然后在相应的层插入节点值即可。
 
-``` java
+```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

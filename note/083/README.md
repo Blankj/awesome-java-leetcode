@@ -15,7 +15,7 @@ Given `1->1->2->3->3`, return `1->2->3`.
 
 题意是删除链表中重复的元素，很简单，我们只需要遍历一遍链表，遇到链表中相邻元素相同时，把当前指针指向下下个元素即可。
 
-``` java
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {

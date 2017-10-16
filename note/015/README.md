@@ -23,7 +23,7 @@ A solution set is:
 
 题意是让你从数组中找出所有三个和为0的元素构成的非重复序列，这样的话我们可以把数组先做下排序，然后遍历这个排序数组，用两个指针分别指向当前元素的下一个和数组尾部，判断三者和与0的大小来移动两个指针，其中细节操作就是注意去重。
 
-``` java
+```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);

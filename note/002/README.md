@@ -16,7 +16,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 题意我也是看了好久才看懂，就是以链表表示一个数，低位在前，高位在后，所以题中的例子就是`342 + 465 = 807`，所以我们模拟计算即可。
 
-``` java
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {

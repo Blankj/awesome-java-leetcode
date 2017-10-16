@@ -32,7 +32,7 @@ In this case, no transaction is done, i.e. max profit = 0.
 
 题意是给出一个数组代表每天的股票金额，让你在最多买卖一次的情况下算出最大的收益额，最简单的就是模拟即可，每次记录当前值减去最小值的差值，与上一次的进行比较然后更新最大值即可。
 
-``` java
+```java
 class Solution {
     public int maxProfit(int[] prices) {
         int max = 0, minPrice = Integer.MAX_VALUE;

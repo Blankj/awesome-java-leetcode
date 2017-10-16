@@ -23,7 +23,7 @@ There is a more generic way of solving this problem.
 
 题意是判断一个有符号整型数是否是回文，也就是逆序过来的整数和原整数相同，首先负数肯定不是，接下来我们分析一下最普通的解法，就是直接算出他的回文数，然后和给定值比较即可。
 
-``` java
+```java
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
@@ -41,7 +41,7 @@ class Solution {
 
 好好思考下是否需要计算整个长度，比如1234321，其实不然，我们只需要计算一半的长度即可，就是在计算过程中的那个逆序数比不断除10的数大就结束计算即可，但是这也带来了另一个问题，比如10的倍数的数10010，它也会返回`true`，所以我们需要对10的倍数的数再加个判断即可，代码如下所示。
 
-``` java
+```java
 public boolean isPalindrome(int x) {
     if (x < 0 || (x != 0 && x % 10 == 0)) return false;
     int halfReverseX = 0;

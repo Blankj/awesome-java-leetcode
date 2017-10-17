@@ -64,6 +64,7 @@
 |17|[Letter Combinations of a Phone Number][017]|String, Backtracking|
 |19|[Remove Nth Node From End of List][019]|Linked List, Two Pointers|
 |33|[Search in Rotated Sorted Array][033]|Arrays, Binary Search|
+|43|[Multiply Strings][043]|Math, String|
 |554|[Brick Wall][554]|Hash Table|
 
 
@@ -124,6 +125,7 @@
 [017]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/017/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
 [033]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/033/README.md
+[043]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/043/README.md
 [554]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/554/README.md
 
 [004]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/004/README.md

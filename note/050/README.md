@@ -7,7 +7,7 @@ Implement pow(x, n).
 **Tags:** Math, Binary Search
 
 
-## 思路0
+## 思路
 
 题意是让你计算`x^n`，如果直接计算肯定会超时，那么我们可以想到可以使用二分法来降低时间复杂度。
 

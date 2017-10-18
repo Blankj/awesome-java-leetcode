@@ -73,9 +73,10 @@
 |#|Title|Tag|
 |:------------- |:------------- |:------------- |
 |4|[Median of Two Sorted Arrays][004]|Array, Binary Search, Divide and Conquer|
-|10|[Regular Expression Matching][010]|String, Dynamic Programmin, Backtracking|
+|10|[Regular Expression Matching][010]|String, Dynamic Programming, Backtracking|
 |23|[Merge k Sorted Lists][023]|Linked List, Divide and Conquer, Heap|
 |25|[Reverse Nodes in k-Group][025]|Linked List|
+|44|[Reverse Nodes in k-Group][044]|String, Dynamic Programming, Backtracking, Greedy|
 
 
 
@@ -132,3 +133,4 @@
 [010]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/010/README.md
 [023]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/023/README.md
 [025]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/025/README.md
+[044]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/044/README.md

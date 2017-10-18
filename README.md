@@ -66,6 +66,7 @@
 |33|[Search in Rotated Sorted Array][033]|Arrays, Binary Search|
 |43|[Multiply Strings][043]|Math, String|
 |49|[Group Anagrams][049]|Hash Table, String|
+|50|[Pow(x, n)][050]|Math, Binary Search|
 |554|[Brick Wall][554]|Hash Table|
 
 
@@ -129,6 +130,7 @@
 [033]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/033/README.md
 [043]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/043/README.md
 [049]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/049/README.md
+[050]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/050/README.md
 [554]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/554/README.md
 
 [004]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/004/README.md

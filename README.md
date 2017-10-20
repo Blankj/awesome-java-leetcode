@@ -67,7 +67,7 @@
 |43|[Multiply Strings][043]|Math, String|
 |49|[Group Anagrams][049]|Hash Table, String|
 |50|[Pow(x, n)][050]|Math, Binary Search|
-|56|[Merge Intervals][056]|Math, Binary Search|
+|56|[Merge Intervals][056]|Array, Sort|
 |554|[Brick Wall][554]|Hash Table|
 
 
@@ -80,6 +80,7 @@
 |23|[Merge k Sorted Lists][023]|Linked List, Divide and Conquer, Heap|
 |25|[Reverse Nodes in k-Group][025]|Linked List|
 |44|[Reverse Nodes in k-Group][044]|String, Dynamic Programming, Backtracking, Greedy|
+|57|[Insert Interval][057]|Array, Sort|
 
 
 
@@ -140,3 +141,4 @@
 [023]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/023/README.md
 [025]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/025/README.md
 [044]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/044/README.md
+[057]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/057/README.md

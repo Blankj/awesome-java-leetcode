@@ -1,6 +1,6 @@
 # awesome-java-leetcode
 
-我如今是一名Android Developer，大学的我曾是一名ACMer，为了不想让算法淡出我的记忆，故重拾LeetCode之Algorithm，语言选择的是Java，题库会一点点完善起来，按简单，中等，困难分类，相应难度下按题号排序，工程代码在[project][project]目录中，相关解题都在[note][note]目录中，欢迎star。
+我如今是一名Android Developer，大学的我曾是一名ACMer，我一直认为数据结构和算法是作为一名程序员必须掌握和善于利用的，为了不让数据结构和算法淡出我的记忆，所以我打算重拾LeetCode之Algorithm，语言选择的是Java，题库会一点点完善起来，按简单，中等，困难分类，相应难度下按题号排序，工程代码在[project][project]目录中，相关解题都在[note][note]目录中，想要学习数据结构和算法或打算刷LeetCode的小伙伴们欢迎star哦。
 
 如今有机会面试Facebook，附上LeetCode上Facebook的面试题目序号，希望可以帮助到以后想入Facebook的小伙伴:-)
 
@@ -13,6 +13,16 @@
 ```
 
 如果想知道更多公司LeetCode面试题，可以参看[Companies.md][companies]。
+
+附上镇楼诗：
+
+> 明有科举八股，今有LeetCode。
+> 八股定格式而取文采心意，LeetCode定题目且重答案背诵。
+> 美其名曰："practice makes perfect."
+> 为何今不如古？
+> 非也非也，
+> 科举为国取士，LeetCode为Google筛码工，各取所需也。
+
 
 ## Easy
 

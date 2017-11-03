@@ -1,0 +1,95 @@
+# [Text Justification][title]
+
+## Description
+
+Given an array of words and a length *L*, format the text such that each line has exactly *L* characters and is fully (left and right) justified.
+
+You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces `' '` when necessary so that each line has exactly *L* characters.
+
+Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.
+
+For the last line of text, it should be left justified and no extra space is inserted between words.
+
+For example,
+**words**: `["This", "is", "an", "example", "of", "text", "justification."]`
+**L**: `16`.
+
+Return the formatted lines as:
+
+```
+[
+   "This    is    an",
+   "example  of text",
+   "justification.  "
+]
+
+```
+
+**Note:** Each word is guaranteed not to exceed *L* in length.
+
+**Corner Cases:**
+
+- A line other than the last line might contain only one word. What should you do in this case?
+  In this case, that line should be left-justified.
+
+**Tags:** String
+
+
+## 思路
+
+题意是给你一组单词和最大行宽，让你对齐他们，对齐的规则就是尽可能一行可以放下足够多的单词，如果最后有多余的空格，那就把空格均匀地插入到单词之间，如果不能平分的话，那就从左开始依次多插一个空格，最后一行单词之间就正常地一个空格即可，如果凑不到最大行宽，那就在末尾补充空格即可，描述地比较差，不懂的话其实看看demo也就懂了哈。题还是比较坑的，毕竟踩的比赞的人多，我也是靠模拟老老实实做出来的，求出可以最多插入空格数，然后用它除以可以插入的槽数获取每个单词之间的空格，它两取余的话就是最面需要多插入一个空格的个数，最后一行的话就单独处理即可。
+
+```java
+class Solution {
+    public List<String> fullJustify(String[] words, int maxWidth) {
+        int len = words.length;
+        List<String> ans = new ArrayList<>();
+        StringBuilder spaces = new StringBuilder();
+        for (int i = 0; i < maxWidth; ++i) {
+            spaces.append(" ");
+        }
+        int curLen = -1, start = 0;
+        for (int i = 0; i < len; ++i) {
+            if (curLen + words[i].length() + 1 <= maxWidth) {
+                curLen += words[i].length() + 1;
+            } else {
+                StringBuilder sub = new StringBuilder(words[start]);
+                int rest = maxWidth - curLen;
+                int l = i - start - 1;
+                if (l <= 0) {
+                    sub.append(spaces.substring(0, rest));
+                } else {
+                    int m = rest / l + 1;
+                    int mod = rest % l;
+                    for (int j = start + 1; j < i; ++j) {
+                        if (mod-- > 0) {
+                            sub.append(spaces.substring(0, m + 1)).append(words[j]);
+                        } else {
+                            sub.append(spaces.substring(0, m)).append(words[j]);
+                        }
+                    }
+                }
+                ans.add(sub.toString());
+                start = i;
+                curLen = words[i].length();
+            }
+        }
+        StringBuilder sub = new StringBuilder(words[start]);
+        for (int i = start + 1; i < len; ++i) {
+            sub.append(" ").append(words[i]);
+        }
+        ans.add(sub + spaces.substring(0, maxWidth - sub.length()));
+        return ans;
+    }
+}
+```
+
+
+## 结语
+
+如果你同我一样热爱数据结构、算法、LeetCode，可以关注我GitHub上的LeetCode题解：[awesome-java-leetcode][ajl]
+
+
+
+[title]: https://leetcode.com/problems/text-justification
+[ajl]: https://github.com/Blankj/awesome-java-leetcode

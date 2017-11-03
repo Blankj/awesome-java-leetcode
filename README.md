@@ -91,6 +91,7 @@
 |25|[Reverse Nodes in k-Group][025]|Linked List|
 |44|[Reverse Nodes in k-Group][044]|String, Dynamic Programming, Backtracking, Greedy|
 |57|[Insert Interval][057]|Array, Sort|
+|68|[Text Justification][068]|String|
 
 
 
@@ -152,3 +153,4 @@
 [025]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/025/README.md
 [044]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/044/README.md
 [057]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/057/README.md
+[068]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/068/README.md

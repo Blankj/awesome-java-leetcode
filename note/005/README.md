@@ -109,13 +109,14 @@ class Solution {
 2. s = "cbbda"，最长回文长度为 `2`，即 `bb`；
 3. s = "abcde"，最长回文长度为 `1`，即单个字符本身。
 
-这个问题等同于LeetCode上的 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)。
-
-其相关题解可以查看这里：[传送门](https://github.com/Blankj/awesome-java-leetcode/blob/master/note/005/README.md)
+这个问题等同于LeetCode上的 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)，其相关题解可以查看这里：[传送门](https://github.com/Blankj/awesome-java-leetcode/blob/master/note/005/README.md)
 
 以上问题的传统思路大概是遍历每一个字符，以该字符为中心向两边查找，其时间复杂度为 `O(n2)`，效率很差。
 
 1975年，一个叫 Manacher 的人发明了 Manacher 算法（中文名：马拉车算法），该算法可以把时间复杂度提升到 `O(n)`，下面我以我理解的思路来讲解其原理。
+
+
+## 分析
 
 由于回文串的奇偶行不确定，比如 `lol` 是奇回文，而 `lool` 是偶回文，马拉车算法的第一步就是对其进行预处理，做法就是在每个字符两侧都加上一个特殊字符，一般就是不会出现在原串中的即可，我们可以选取 `#`，那么
 
@@ -132,15 +133,19 @@ lool -> #l#o#o#l#
 
 我们以 `lollool` 为例，参看下表。
 
-| str  | #    | l    | #    | o    | #    | l    | #    | l    | #    | o    | #    | o    | #    | l    | #    |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| len  | 1    | 2    | 1    | 4    | l    | 2    | 5    | 2    | 1    | 2    | 5    | 2    | 1    | 2    | 1    |
+| str   | #    | l    | #    | o    | #    | l    | #    | l    | #    | o    | #    | o    | #    | l    | #    |
+| :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| len[] | 1    | 2    | 1    | 4    | l    | 2    | 5    | 2    | 1    | 2    | 5    | 2    | 1    | 2    | 1    |
 
 可以发现 `len[i] - 1` 就等于该回文串在原串中的长度。
 
 证明：在转换后的字符串 `str` 中，那么对于以 `str[i]` 为中心的最长回文串的长度为 `2 * len[i] - 1`，其中又有 `len[i]` 个分隔符，所以在原字符串中的回文串长度就是 `len[i] - 1`。
 
 那么我们剩下的工作就是求 `len` 数组。
+
+为了防止数组越界，我们在首位再加上非 `#` 的不常用字符，比如 `~`，那么 `lollool` 就表示为 `~#l#o#l#l#o#o#l#~`，这样我们就省去写很多 `if else` 的边界处理。
+
+我们先看一张
 
 
 

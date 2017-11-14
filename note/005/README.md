@@ -111,7 +111,7 @@ class Solution {
 
 这个问题等同于LeetCode上的 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)，其相关题解可以查看这里：[传送门](https://github.com/Blankj/awesome-java-leetcode/blob/master/note/005/README.md)
 
-以上问题的传统思路大概是遍历每一个字符，以该字符为中心向两边查找，其时间复杂度为 `O(n2)`，效率很差。
+以上问题的传统思路大概是遍历每一个字符，以该字符为中心向两边查找，其时间复杂度为 `O(n^2)`，效率很差。
 
 1975年，一个叫 Manacher 的人发明了 Manacher 算法（中文名：马拉车算法），该算法可以把时间复杂度提升到 `O(n)`，下面我以我理解的思路来讲解其原理。
 

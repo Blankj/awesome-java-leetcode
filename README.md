@@ -1,8 +1,8 @@
 # awesome-java-leetcode
 
-我如今是一名Android Developer，大学的我曾是一名ACMer，我一直认为数据结构和算法是作为一名程序员必须掌握和善于利用的，为了不让数据结构和算法淡出我的记忆，所以我打算重拾LeetCode之Algorithm，语言选择的是Java，题库会一点点完善起来，按简单，中等，困难分类，相应难度下按题号排序，源代码在[src][src]目录中，相关解题都在[note][note]目录中，想要学习数据结构和算法或打算刷LeetCode的小伙伴们欢迎star哦。
+我如今是一名 Android Developer，大学的我曾是一名 ACMer，我一直认为数据结构和算法是作为一名程序员必须掌握和善于利用的，为了不让数据结构和算法淡出我的记忆，所以我打算重拾 LeetCode 之 Algorithm，语言选择的是 Java，题库会一点点完善起来，按简单，中等，困难分类，相应难度下按题号排序，源代码在 [src][src] 目录中，相关解题都在 [note][note] 目录中，想要学习数据结构和算法或打算刷 LeetCode 的小伙伴们欢迎 star 哦。
 
-如今有机会面试Facebook，附上LeetCode上Facebook的面试题目序号，希望可以帮助到以后想入Facebook的小伙伴:-)
+如今有机会面试 Facebook，附上 LeetCode 上 Facebook 的面试题目序号，希望可以帮助到以后想入 Facebook 的小伙伴:-)
 
 ```
 1,10,13,15,17,20,23,25,26,28,33,38,43,44,49,50,56,57,67,68,69,71,75,76
@@ -12,12 +12,12 @@
 341,377,380,398,404,410,461,477,494,523,525,534,535,543,554
 ```
 
-如果想知道更多公司LeetCode面试题，可以参看[Companies.md][companies]。
+如果想知道更多公司 LeetCode 面试题，可以参看 [Companies.md][companies]。
 
 附上镇楼诗：
 
-> 明有科举八股，今有LeetCode。  
-> 八股定格式而取文采心意，LeetCode定题目且重答案背诵。  
+> 明有科举八股，今有 LeetCode。  
+> 八股定格式而取文采心意，LeetCode 定题目且重答案背诵。  
 > 美其名曰："practice makes perfect."  
 > 为何今不如古？  
 > 非也非也，  

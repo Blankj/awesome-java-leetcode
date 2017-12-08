@@ -5,6 +5,7 @@
 Given a binary tree, return the *bottom-up level order* traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
 
 For example:
+
 Given binary tree `[3,9,20,null,null,15,7]`,
 
 ```
@@ -31,7 +32,6 @@ return its bottom-up level order traversal as:
 ## 思路0
 
 题意是从下往上按层遍历二叉树，每一层是从左到右，按层遍历，很明显，宽搜第一时间符合，因为是从下往上，所以插入的时候每次插到链表头即可。
-
 
 ```java
 /**

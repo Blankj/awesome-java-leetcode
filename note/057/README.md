@@ -7,9 +7,11 @@ Given a set of *non-overlapping* intervals, insert a new interval into the inter
 You may assume that the intervals were initially sorted according to their start times.
 
 **Example 1:**
+
 Given intervals `[1,3],[6,9]`, insert and merge `[2,5]` in as `[1,5],[6,9]`.
 
 **Example 2:**
+
 Given `[1,2],[3,5],[6,7],[8,10],[12,16]`, insert and merge `[4,9]` in as `[1,2],[3,10],[12,16]`.
 
 This is because the new interval `[4,9]` overlaps with `[3,5],[6,7],[8,10]`.
@@ -20,8 +22,11 @@ This is because the new interval `[4,9]` overlaps with `[3,5],[6,7],[8,10]`.
 ## 思路
 
 题意是给你一组有序区间，和一个待插入区间，让你待插入区间插入到前面的区间中，我们分三步走：
+
 1. 首先把有序区间中小于待插入区间的部分加入到结果中；
+
 2. 其次是插入待插入区间，如果有交集的话取两者交集的端点值；
+
 3. 最后把有序区间中大于待插入区间的部分加入到结果中；
 
 ```java

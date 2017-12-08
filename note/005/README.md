@@ -12,7 +12,6 @@ Input: "babad"
 Output: "bab"
 
 Note: "aba" is also a valid answer.
-
 ```
 
 **Example:**
@@ -64,8 +63,10 @@ class Solution {
 如果利用暴力法遍历所有字串是否回文的情况这道题肯定是 `Time Limit Exceeded` 的，那么我们是否可以把之前遍历的结果利用上呢，那么动态规划的想法就呼之欲出了，我们定义 `dp[i][j]` 的意思为字符串区间`[i, j]`是否为回文串，那么我们分三种情况：
 
 1. 当 `i == j` 时，那么毫无疑问 `dp[i][j] = true`；
+
 2. 当 `i + 1 == j` 时，那么 `dp[i][j]` 的值取决于 `s[i] == s[j]`；
-3. 当 `i + 1 < j` 时，那么 `dp[i][j]` 的值取决于 `dp[i + 1][j - 1] && s[i] == s[j]`；
+
+3. 当 `i + 1 < j` 时，那么 `dp[i][j]` 的值取决于 `dp[i + 1][j - 1] && s[i] == s[j]`。
 
 根据以上的动态转移方程，我们的问题即可迎刃而解，时间复杂度的话显而易见，也是 `O(n^2)`。
 
@@ -101,12 +102,14 @@ class Solution {
 
 马拉车算法(Manacher's Algorithm)
 
-## 背景
+### 背景
 
 给定一个字符串，求出其最长回文子串（回文字符串就是从左到右读和从右往左读完全一样，也就是字符串关于中间对称）。例如：
 
 1. s = "babad"，最长回文长度为 `3`，可以是 `bab` 或者 `aba`；
+
 2. s = "cbbda"，最长回文长度为 `2`，即 `bb`；
+
 3. s = "abcde"，最长回文长度为 `1`，即单个字符本身。
 
 这个问题等同于LeetCode上的 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)，其相关题解可以查看这里：[传送门](https://github.com/Blankj/awesome-java-leetcode/blob/master/note/005/README.md)
@@ -116,7 +119,7 @@ class Solution {
 1975年，一个叫 Manacher 的人发明了 Manacher 算法（中文名：马拉车算法），该算法可以把时间复杂度提升到 `O(n)`，下面我以我理解的思路来讲解其原理。
 
 
-## 分析
+### 分析
 
 由于回文串的奇偶行不确定，比如 `lol` 是奇回文，而 `lool` 是偶回文，马拉车算法的第一步就是对其进行预处理，做法就是在每个字符两侧都加上一个特殊字符，一般就是不会出现在原串中的即可，我们可以选取 `#`，那么
 

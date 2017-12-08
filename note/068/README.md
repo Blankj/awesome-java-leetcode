@@ -11,7 +11,9 @@ Extra spaces between words should be distributed as evenly as possible. If the n
 For the last line of text, it should be left justified and no extra space is inserted between words.
 
 For example,
+
 **words**: `["This", "is", "an", "example", "of", "text", "justification."]`
+
 **L**: `16`.
 
 Return the formatted lines as:
@@ -30,6 +32,7 @@ Return the formatted lines as:
 **Corner Cases:**
 
 - A line other than the last line might contain only one word. What should you do in this case?
+
   In this case, that line should be left-justified.
 
 **Tags:** String

@@ -8,11 +8,12 @@ If the last word does not exist, return 0.
 
 **Note:** A word is defined as a character sequence consists of non-space characters only.
 
-For example,
+**Example:**
 
-Given *s* = `"Hello World"`,
-
-return `5`.
+```
+Input: "Hello World"
+Output: 5
+```
 
 **Tags:** String
 

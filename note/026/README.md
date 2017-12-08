@@ -2,14 +2,18 @@
 
 ## Description
 
-Given a sorted array, remove the duplicates in place such that each element appear only *once* and return the new length.
+Given a sorted array, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that each element appear only *once* and return the new length.
 
-Do not allocate extra space for another array, you must do this in place with constant memory.
+Do not allocate extra space for another array, you must do this by **modifying the input array in-place** with O(1) extra memory.
 
-For example,
-Given input array *nums* = `[1,1,2]`,
+**Example:**
 
-Your function should return length = `2`, with the first two elements of *nums* being `1` and `2` respectively. It doesn't matter what you leave beyond the new length.
+```
+Given nums = [1,1,2],
+
+Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
+It doesn't matter what you leave beyond the new length.
+```
 
 **Tags:** Array, Two Pointers
 

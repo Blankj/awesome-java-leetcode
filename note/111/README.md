@@ -13,7 +13,6 @@ The minimum depth is the number of nodes along the shortest path from the root n
 
 题意是查找二叉树的最小深度，也就是找到从根结点到叶子节点的最小深度，最容易想到的当然是深搜，如果节点的左右深度都不是0的话，说明该节点含有左右子树，所以它的最小高度就是1加上其左右子树高度较小者，否则如果左子树为空或者右子树为空或者两者都为空，那么就是1加上非空子树高度。
 
-
 ```java
 /**
  * Definition for a binary tree node.
@@ -79,5 +78,5 @@ class Solution {
 
 
 
-[title]: https://leetcode.com/problems/balanced-binary-tree
+[title]: https://leetcode.com/problems/minimum-depth-of-binary-tree
 [ajl]: https://github.com/Blankj/awesome-java-leetcode

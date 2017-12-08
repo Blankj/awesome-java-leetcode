@@ -1,4 +1,4 @@
-# [Merge k Sorted Lists][title]
+# [Reverse Nodes in k-Group][title]
 
 ## Description
 
@@ -11,6 +11,7 @@ You may not alter the values in the nodes, only nodes itself may be changed.
 Only constant memory is allowed.
 
 For example,
+
 Given this linked list: `1->2->3->4->5`
 
 For *k* = 2, you should return: `2->1->4->3->5`
@@ -23,12 +24,15 @@ For *k* = 3, you should return: `3->2->1->4->5`
 ## 思路
 
 题意是让你以`k`个元素为一组来翻转链表，最后不足`k`个的话不需要翻转，最传统的思路就是每遇到`k`个元素，对其`k`个元素进行翻转，而难点就是在此，下面介绍其原理，我们以例子中的`k = 3`为例，其`pre`和`next`如下所示。
+
 ```
 0->1->2->3->4->5
 |           |
 pre        next
 ```
+
 我们要做的就是把`pre`和`next`之间的元素逆序，思想是依次从第二个元素到第`k`个元素，依次把它插入到`pre`后面，过程如下。
+
 ```
  head move
    |  |
@@ -48,8 +52,8 @@ pre        next
 |           |
 pre        next
 ```
-好了，根据原理，那写出代码就不难了。
 
+好了，根据原理，那写出代码就不难了。
 
 ```java
 /**
@@ -97,5 +101,5 @@ class Solution {
 
 
 
-[title]: https://leetcode.com/problems/merge-k-sorted-lists
+[title]: https://leetcode.com/problems/reverse-nodes-in-k-group
 [ajl]: https://github.com/Blankj/awesome-java-leetcode

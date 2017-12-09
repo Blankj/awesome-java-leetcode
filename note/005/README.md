@@ -25,7 +25,7 @@ Output: "bb"
 **Tags:** String
 
 
-## 思路0
+## 思路 0
 
 题意是寻找出字符串中最长的回文串，所谓回文串就是正序和逆序相同的字符串，也就是关于中间对称。我们先用最常规的做法，依次去求得每个字符的最长回文，要注意每个字符有奇数长度的回文串和偶数长度的回文串两种情况，相信你可以很轻易地从如下代码中找到相关代码，记录最长回文的始末位置即可，时间复杂度的话，首先要遍历一遍字符串，然后对每个字符都去求得最长回文，所以时间复杂度为 `O(n^2)`。
 
@@ -58,9 +58,9 @@ class Solution {
 ```
 
 
-## 思路1
+## 思路 1
 
-如果利用暴力法遍历所有字串是否回文的情况这道题肯定是 `Time Limit Exceeded` 的，那么我们是否可以把之前遍历的结果利用上呢，那么动态规划的想法就呼之欲出了，我们定义 `dp[i][j]` 的意思为字符串区间`[i, j]`是否为回文串，那么我们分三种情况：
+如果利用暴力法遍历所有字串是否回文的情况这道题肯定是 `Time Limit Exceeded` 的，那么我们是否可以把之前遍历的结果利用上呢，那么动态规划的想法就呼之欲出了，我们定义 `dp[i][j]` 的意思为字符串区间 `[i, j]` 是否为回文串，那么我们分三种情况：
 
 1. 当 `i == j` 时，那么毫无疑问 `dp[i][j] = true`；
 
@@ -98,7 +98,7 @@ class Solution {
 ```
 
 
-## 思路2
+## 思路 2
 
 马拉车算法(Manacher's Algorithm)
 
@@ -112,11 +112,11 @@ class Solution {
 
 3. s = "abcde"，最长回文长度为 `1`，即单个字符本身。
 
-这个问题等同于LeetCode上的 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)，其相关题解可以查看这里：[传送门](https://github.com/Blankj/awesome-java-leetcode/blob/master/note/005/README.md)
+这个问题等同于 LeetCode 上的 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)，其相关题解可以查看这里：[传送门](https://github.com/Blankj/awesome-java-leetcode/blob/master/note/005/README.md)
 
 以上问题的传统思路大概是遍历每一个字符，以该字符为中心向两边查找，其时间复杂度为 `O(n^2)`，效率很差。
 
-1975年，一个叫 Manacher 的人发明了 Manacher 算法（中文名：马拉车算法），该算法可以把时间复杂度提升到 `O(n)`，下面我以我理解的思路来讲解其原理。
+1975 年，一个叫 Manacher 的人发明了 Manacher 算法（中文名：马拉车算法），该算法可以把时间复杂度提升到 `O(n)`，下面我以我理解的思路来讲解其原理。
 
 
 ### 分析

@@ -31,7 +31,7 @@ Bonus points if you could solve it both recursively and iteratively.
 **Tags:** Tree, Depth-first Search, Breadth-first Search
 
 
-## 思路0
+## 思路 0
 
 题意是判断一棵二叉树是否左右对称，首先想到的是深搜，比较根结点的左右两棵子树是否对称，如果左右子树的值相同，那么再分别对左子树的左节点和右子树的右节点，左子树的右节点和右子树的左节点做比较即可。
 
@@ -58,9 +58,9 @@ class Solution {
 }
 ```
 
-## 思路1
+## 思路 1
 
-第二种思路就是宽搜了，宽搜肯定要用到队列，Java中可用`LinkedList`替代，也是要做到左子树的左节点和右子树的右节点，左子树的右节点和右子树的左节点做比较即可。
+第二种思路就是宽搜了，宽搜肯定要用到队列，Java 中可用 `LinkedList` 替代，也是要做到左子树的左节点和右子树的右节点，左子树的右节点和右子树的左节点做比较即可。
 
 ```java
 /**

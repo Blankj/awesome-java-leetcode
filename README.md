@@ -21,7 +21,7 @@
 > 美其名曰："practice makes perfect."  
 > 为何今不如古？  
 > 非也非也，  
-> 科举为国取士，LeetCode为Google筛码工，各取所需也。  
+> 科举为国取士，LeetCode 为 Google 筛码工，各取所需也。  
 
 
 ## Easy

@@ -28,7 +28,7 @@ Explanation: The square root of 8 is 2.82842..., and since we want to return an 
 
 ## 思路
 
-题意是求平方根，参考[牛顿迭代法求平方根](https://wenku.baidu.com/view/6b74c622bcd126fff7050bfe.html)，然后再参考维基百科的[Integer square root](https://en.wikipedia.org/wiki/Integer_square_root#Using_only_integer_division)即可。
+题意是求平方根，参考 [牛顿迭代法求平方根](https://wenku.baidu.com/view/6b74c622bcd126fff7050bfe.html)，然后再参考维基百科的 [Integer square root](https://en.wikipedia.org/wiki/Integer_square_root#Using_only_integer_division) 即可。
 
 ```java
 class Solution {

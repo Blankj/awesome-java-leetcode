@@ -1,4 +1,4 @@
-# [Longest Palindromic Substring][title]
+# [ZigZag Conversion][title]
 
 ## Description
 
@@ -106,5 +106,5 @@ class Solution {
 
 
 
-[title]: https://leetcode.com/problems/longest-palindromic-substring
+[title]: https://leetcode.com/problems/zigzag-conversion
 [ajl]: https://github.com/Blankj/awesome-java-leetcode

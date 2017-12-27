@@ -15,13 +15,13 @@ import java.util.LinkedList;
  */
 public class Solution {
 //    public boolean isSymmetric(TreeNode root) {
-//        return root == null || isSymmetricHelper(root.left, root.right);
+//        return root == null || helper(root.left, root.right);
 //    }
 //
 //    private boolean helper(TreeNode left, TreeNode right) {
 //        if (left == null || right == null) return left == right;
 //        if (left.val != right.val) return false;
-//        return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left);
+//        return helper(left.left, right.right) && helper(left.right, right.left);
 //    }
 
     public boolean isSymmetric(TreeNode root) {

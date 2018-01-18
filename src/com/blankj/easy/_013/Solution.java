@@ -36,6 +36,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.romanToInt("DCXXI"));// 621
-        System.out.println(solution.romanToInt("CCCXLVIII"));// 384
+        System.out.println(solution.romanToInt("CCCXLVIII"));// 348
     }
 }

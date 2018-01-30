@@ -24,17 +24,17 @@ public class Solution {
         Arrays.sort(nums);
         int len = nums.length - 2;
         for (int i = 0; i < len; i++) {
-            int st = i + 1, end = nums.length - 1;
-            while (st < end) {
-                int sum = nums[i] + nums[st] + nums[end];
+            int left = i + 1, right = nums.length - 1;
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
                 int curDelta = Math.abs(sum - target);
                 if (curDelta == 0) return sum;
                 if (curDelta < delta) {
                     delta = curDelta;
                     res = sum;
                 }
-                if (sum > target) --end;
-                else ++st;
+                if (sum > target) --right;
+                else ++left;
             }
         }
         return res;

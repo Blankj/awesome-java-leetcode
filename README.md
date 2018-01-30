@@ -77,6 +77,7 @@
 | 15   | [3Sum][015]                              | Array, Two Pointers              |
 | 15   | [3Sum Closest][016]                      | Array, Two Pointers              |
 | 17   | [Letter Combinations of a Phone Number][017] | String, Backtracking             |
+| 18   | [4Sum][018]                              | Array, Hash Table, Two Pointers  |
 | 19   | [Remove Nth Node From End of List][019]  | Linked List, Two Pointers        |
 | 33   | [Search in Rotated Sorted Array][033]    | Arrays, Binary Search            |
 | 43   | [Multiply Strings][043]                  | Math, String                     |
@@ -149,6 +150,7 @@
 [015]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/015/README.md
 [016]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/016/README.md
 [017]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/017/README.md
+[018]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/018/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
 [033]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/033/README.md
 [043]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/043/README.md

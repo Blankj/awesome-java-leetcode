@@ -80,6 +80,7 @@
 | 18   | [4Sum][018]                              | Array, Hash Table, Two Pointers  |
 | 19   | [Remove Nth Node From End of List][019]  | Linked List, Two Pointers        |
 | 22   | [Generate Parentheses][022]              | String, Backtracking             |
+| 24   | [Swap Nodes in Pairs][024]               | Linked List                      |
 | 33   | [Search in Rotated Sorted Array][033]    | Arrays, Binary Search            |
 | 43   | [Multiply Strings][043]                  | Math, String                     |
 | 49   | [Group Anagrams][049]                    | Hash Table, String               |
@@ -154,6 +155,7 @@
 [018]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/018/README.md
 [019]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/019/README.md
 [022]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/022/README.md
+[024]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/024/README.md
 [033]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/033/README.md
 [043]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/043/README.md
 [049]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/049/README.md

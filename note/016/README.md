@@ -15,7 +15,7 @@ Given an array *S* of *n* integers, find three integers in *S* such that the sum
 
 ## 思路
 
-这道题和 [3Sum][015] 的思路基本一样，先对数组进行排序，然后遍历这个排序数组，用两个指针分别指向当前元素的下一个和数组尾部，判断三者的和与 `target` 的差值来移动两个指针，并更新其结果，当然，如果三者的和直接与 `target` 值相同，那么返回 `target` 结果即可。
+题意是让你从数组中找出最接近 `target` 的三个数的和，该题和 [3Sum][015] 的思路基本一样，先对数组进行排序，然后遍历这个排序数组，用两个指针分别指向当前元素的下一个和数组尾部，判断三者的和与 `target` 的差值来移动两个指针，并更新其结果，当然，如果三者的和直接与 `target` 值相同，那么返回 `target` 结果即可。
 
 ```java
 public class Solution {

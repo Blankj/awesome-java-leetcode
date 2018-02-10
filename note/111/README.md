@@ -66,7 +66,7 @@ class Solution {
             }
             ++ans;
         }
-        return 520;
+        return ans;
     }
 }
 ```

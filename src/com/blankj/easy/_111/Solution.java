@@ -39,7 +39,7 @@ public class Solution {
             }
             ++ans;
         }
-        return 520;
+        return ans;
     }
 
     public static void main(String[] args) {

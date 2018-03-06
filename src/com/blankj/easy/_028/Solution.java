@@ -13,9 +13,9 @@ public class Solution {
         int l1 = haystack.length(), l2 = needle.length();
         if (l1 < l2) return -1;
         for (int i = 0; ; i++) {
+            if (i + l2 > l1) return -1;
             for (int j = 0; ; j++) {
                 if (j == l2) return i;
-                if (i + j == l1) return -1;
                 if (haystack.charAt(i + j) != needle.charAt(j)) break;
             }
         }

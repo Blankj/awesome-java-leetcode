@@ -92,15 +92,16 @@
 
 ## Hard
 
-| #    | Title                              | Tag                                      |
-| :--- | :--------------------------------- | :--------------------------------------- |
-| 4    | [Median of Two Sorted Arrays][004] | Array, Binary Search, Divide and Conquer |
-| 10   | [Regular Expression Matching][010] | String, Dynamic Programming, Backtracking |
-| 23   | [Merge k Sorted Lists][023]        | Linked List, Divide and Conquer, Heap    |
-| 25   | [Reverse Nodes in k-Group][025]    | Linked List                              |
-| 44   | [Wildcard Matching][044]           | String, Dynamic Programming, Backtracking, Greedy |
-| 57   | [Insert Interval][057]             | Array, Sort                              |
-| 68   | [Text Justification][068]          | String                                   |
+| #    | Title                                    | Tag                                      |
+| :--- | :--------------------------------------- | :--------------------------------------- |
+| 4    | [Median of Two Sorted Arrays][004]       | Array, Binary Search, Divide and Conquer |
+| 10   | [Regular Expression Matching][010]       | String, Dynamic Programming, Backtracking |
+| 23   | [Merge k Sorted Lists][023]              | Linked List, Divide and Conquer, Heap    |
+| 25   | [Reverse Nodes in k-Group][025]          | Linked List                              |
+| 30   | [Substring with Concatenation of All Words][030] | Hash Table, Two Pointers, String         |
+| 44   | [Wildcard Matching][044]                 | String, Dynamic Programming, Backtracking, Greedy |
+| 57   | [Insert Interval][057]                   | Array, Sort                              |
+| 68   | [Text Justification][068]                | String                                   |
 
 
 
@@ -169,6 +170,7 @@
 [010]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/010/README.md
 [023]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/023/README.md
 [025]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/025/README.md
+[030]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/030/README.md
 [044]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/044/README.md
 [057]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/057/README.md
 [068]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/068/README.md

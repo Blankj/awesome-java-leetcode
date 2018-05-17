@@ -4,16 +4,25 @@
 
 You are given a string, **s**, and a list of words, **words**, that are all of the same length. Find all starting indices of substring(s) in **s** that is a concatenation of each word in **words** exactly once and without any intervening characters.
 
+**Example 1:**
 
-For example, given:
+```
+Input:
+  s = "barfoothefoobarman",
+  words = ["foo","bar"]
+Output: [0,9]
+Explanation: Substrings starting at index 0 and 9 are "barfoor" and "foobar" respectively.
+The output order does not matter, returning [9,0] is fine too.
+```
 
-**s**: `"barfoothefoobarman"`
+**Example 2:**
 
-**words**: `["foo", "bar"]`
-
-You should return the indices: `[0,9]`.
-
-(order does not matter).
+```
+Input:
+  s = "wordgoodstudentgoodword",
+  words = ["word","student"]
+Output: []
+```
 
 **Tags:** Hash Table, Two Pointers, String
 

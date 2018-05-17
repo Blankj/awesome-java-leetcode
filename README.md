@@ -69,7 +69,7 @@
 | :--- | :--------------------------------------- | :------------------------------- |
 | 2    | [Add Two Numbers][002]                   | Linked List, Math                |
 | 3    | [Longest Substring Without Repeating Characters][003] | Hash Table, Two Pointers, String |
-| 5    | [Longest Palindromic Substring][005]     | String                           |
+| 5    | [Longest Palindromic Substring][005]     | String, Dynamic Programming      |
 | 6    | [ZigZag Conversion][006]                 | String                           |
 | 8    | [String to Integer (atoi)][008]          | Math, String                     |
 | 11   | [Container With Most Water][011]         | Array, Two Pointers              |

@@ -2,7 +2,7 @@
 
 ## Description
 
-Implement [pow(*x*, *n*)](http://www.cplusplus.com/reference/valarray/pow/).
+Implement [pow(*x*, *n*)](http://www.cplusplus.com/reference/valarray/pow/), which calculates *x* raised to the power *n* (xn).
 
 **Example 1:**
 
@@ -17,6 +17,19 @@ Output: 1024.00000
 Input: 2.10000, 3
 Output: 9.26100
 ```
+
+**Example 3:**
+
+```
+Input: 2.00000, -2
+Output: 0.25000
+Explanation: 2^-2 = 1/2^2 = 1/4 = 0.25
+```
+
+**Note:**
+
+- -100.0 < *x* < 100.0
+- *n* is a 32-bit signed integer, within the range [−2<sup>31</sup>, 2<sup>31</sup> − 1]
 
 **Tags:** Math, Binary Search
 

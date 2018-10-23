@@ -13,8 +13,8 @@ public class Solution {
         StringBuilder sb = new StringBuilder();
         int carry = 0, p1 = a.length() - 1, p2 = b.length() - 1;
         while (p1 >= 0 && p2 >= 0) {
-            carry += a.charAt(p1--);
-            carry += b.charAt(p2--);
+            carry += a.charAt(p1--) - '0';
+            carry += b.charAt(p2--) - '0';
             sb.insert(0, (char) (carry % 2 + '0'));
             carry >>= 1;
         }

@@ -18,7 +18,12 @@ import java.util.Set;
  */
 public class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
-        int wordsSize = words.length, wordLen = words[0].length(), end = s.length() - wordsSize * wordLen;
+        if (s == null) return Collections.emptyList();
+        int len = s.length();
+        if (len == 0) return Collections.emptyList();
+        int wordsSize = words.length;
+        if (wordsSize == 0) return Collections.emptyList();
+        int wordLen = words[0].length(), end = len - wordsSize * wordLen;
         if (end < 0) return Collections.emptyList();
         Map<String, Integer> countMap = new HashMap<>();
         for (String word : words) {
@@ -33,7 +38,7 @@ public class Solution {
             List<Integer> ignore = new ArrayList<>();
             for (int j = 0; ; ++j) {
                 int cur = i + j * wordLen;
-                if (cur + wordLen > s.length()) break;
+                if (cur + wordLen > len) break;
                 String word = s.substring(cur, cur + wordLen);
                 if (countMap.containsKey(word)) {
                     findMap.put(word, findMap.getOrDefault(word, 0) + 1);
@@ -62,52 +67,6 @@ public class Solution {
         }
         return res;
     }
-
-//    public List<Integer> findSubstring(String S, String[] L) {
-//        List<Integer> res = new LinkedList<>();
-//        int N = S.length();
-//        int M = L.length; // *** length
-//        int wl = L[0].length();
-//        Map<String, Integer> map = new HashMap<>(), curMap = new HashMap<>();
-//        for (String s : L) {
-//            if (map.containsKey(s)) map.put(s, map.get(s) + 1);
-//            else map.put(s, 1);
-//        }
-//        String str = null, tmp = null;
-//        for (int i = 0; i < wl; i++) {
-//            int count = 0;  // remark: reset count
-//            int start = i;
-//            for (int r = i; r + wl <= N; r += wl) {
-//                str = S.substring(r, r + wl);
-//                if (map.containsKey(str)) {
-//                    if (curMap.containsKey(str)) curMap.put(str, curMap.get(str) + 1);
-//                    else curMap.put(str, 1);
-//
-//                    if (curMap.get(str) <= map.get(str)) count++;
-//                    if (count == M) {
-//                        res.add(start);
-//                        tmp = S.substring(start, start + wl);
-//                        curMap.put(tmp, curMap.get(tmp) - 1);
-//                        start += wl;
-//                        count--;
-//                    }
-//                    while (curMap.get(str) > map.get(str)) {
-//                        tmp = S.substring(start, start + wl);
-//                        curMap.put(tmp, curMap.get(tmp) - 1);
-//                        start += wl;
-//                        if (curMap.get(tmp) < map.get(tmp)) count--;
-//
-//                    }
-//                } else {
-//                    curMap.clear();
-//                    count = 0;
-//                    start = r + wl;
-//                }
-//            }
-//            curMap.clear();
-//        }
-//        return res;
-//    }
 
     public static void main(String[] args) {
         Solution solution = new Solution();

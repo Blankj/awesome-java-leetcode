@@ -46,12 +46,12 @@ class Solution {
                 ans[i + j + 1] +=  c * (c2[j] - '0');
             }
         }
-        for (int i = l - 1; i > 0; ++i) {
+        for (int i = l - 1; i > 0; --i) {
             if (ans[i] > 9) {
                 ans[i - 1] += ans[i] / 10;
-                ans[i] %= 10;        
+                ans[i] %= 10;
             }
-         }
+        }
         StringBuilder sb = new StringBuilder();
         int i = 0;
         for (; ; ++i) if (ans[i] != 0) break;

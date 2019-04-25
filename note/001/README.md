@@ -44,7 +44,7 @@ class Solution {
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        final int len = nums.length;
+        int len = nums.length;
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < len; ++i) {
             final Integer value = map.get(nums[i]);

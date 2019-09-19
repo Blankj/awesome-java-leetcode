@@ -50,4 +50,19 @@ public class ListNode {
         }
         System.out.println(str.append("]"));
     }
+
+    public String toString(ListNode listNode) {
+        if (listNode == null) {
+            System.out.println("null");
+            return "";
+        }
+        StringBuilder str = new StringBuilder("[" + String.valueOf(listNode.val));
+        ListNode p = listNode.next;
+        while (p != null) {
+            str.append(",").append(String.valueOf(p.val));
+            p = p.next;
+        }
+        str.append("]");
+        return str.toString();
+    }
 }

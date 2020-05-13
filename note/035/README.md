@@ -55,8 +55,7 @@ class Solution {
 }
 ```
 
-mid 说明：
-
+**mid 说明：**  
 有两种处理方法：
 1. mid = (left + right) >> 1
 2. mid = left + (right - left) >> 1

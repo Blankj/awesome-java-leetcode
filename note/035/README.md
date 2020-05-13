@@ -44,17 +44,25 @@ Output: 0
 ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        int left = 0, right = nums.length - 1, mid = (right + left) >> 1;
+        int left = 0, right = nums.length - 1, mid = left + ((right - left) >> 1);
         while (left <= right) {
             if (target <= nums[mid]) right = mid - 1;
             else left = mid + 1;
-            mid = (right + left) >> 1;
+            mid = left + ((right - left) >> 1);
         }
         return left;
     }
 }
 ```
 
+**mid 说明：**  
+有两种处理方法：
+1. mid = (left + right) >> 1
+2. mid = left + ((right - left) >> 1)
+
+在一般情况下两种都可以。
+
+但是当 left 和 right 接近于 int 的最大值时，**(left + right)** 可能发生类型溢出，因此推荐用第二种方式。
 
 ## 结语
 

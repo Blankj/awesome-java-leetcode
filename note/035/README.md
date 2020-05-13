@@ -44,11 +44,11 @@ Output: 0
 ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        int left = 0, right = nums.length - 1, mid = left + (right - left) >> 1;
+        int left = 0, right = nums.length - 1, mid = left + ((right - left) >> 1);
         while (left <= right) {
             if (target <= nums[mid]) right = mid - 1;
             else left = mid + 1;
-            mid = left + (right - left) >> 1;
+            mid = left + ((right - left) >> 1);
         }
         return left;
     }
@@ -58,7 +58,7 @@ class Solution {
 **mid 说明：**  
 有两种处理方法：
 1. mid = (left + right) >> 1
-2. mid = left + (right - left) >> 1
+2. mid = left + ((right - left) >> 1)
 
 在一般情况下两种都可以。
 

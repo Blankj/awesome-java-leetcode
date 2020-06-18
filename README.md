@@ -88,6 +88,7 @@
 | 50   | [Pow(x, n)][050]                         | Math, Binary Search              |
 | 56   | [Merge Intervals][056]                   | Array, Sort                      |
 | 554  | [Brick Wall][554]                        | Hash Table                       |
+| 1014 | [最佳观光组合][1014]                       | 数组                              |
 
 
 ## Hard
@@ -170,6 +171,7 @@
 [050]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/050/README.md
 [056]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/056/README.md
 [554]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/554/README.md
+[1014]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/1014/README.md
 
 [004]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/004/README.md
 [010]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/010/README.md

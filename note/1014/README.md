@@ -1,4 +1,4 @@
-# [最佳观光组合][title]
+# [最佳观光组合(Best Sightseeing Pair)][title]
 
 ## 题目描述
 
@@ -56,5 +56,5 @@ class Solution {
 
 
 
-[title]: https://leetcode-cn.com/problems/best-sightseeing-pair/
+[title]: https://leetcode-cn.com/problems/best-sightseeing-pair
 [ajl]: https://github.com/Blankj/awesome-java-leetcode

@@ -46,7 +46,6 @@ class Solution {
         System.out.println(solution.maxScoreSightseeingPair(A));
     }
 }
-
 ```
 
 

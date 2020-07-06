@@ -85,7 +85,8 @@
 | 49   | [Group Anagrams][0049]                                            | Hash Table, String                                |
 | 50   | [Pow(x, n)][0050]                                                 | Math, Binary Search                               |
 | 56   | [Merge Intervals][0056]                                           | Array, Sort                                       |
-| 209  | [长度最小的子数组(Minimum Size Subarray Sum)][0209]                 | Array, Sort                                       |
+| 209  | [长度最小的子数组(Minimum Size Subarray Sum)][0209]                 | 数组、双指针、二分查找                               |
+| 215  | [数组中的第K个最大元素(Kth Largest Element in an Array)][0215]       | 堆、分治算法                                       |
 | 554  | [Brick Wall][0554]                                                | Hash Table                                        |
 | 1014 | [最佳观光组合(Best Sightseeing Pair)][1014]                         | 数组                                              |
 
@@ -168,11 +169,13 @@
 [0049]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0049/README.md
 [0050]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0050/README.md
 [0056]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0056/README.md
+[0209]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0209/README.md
+[0215]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0215/README.md
 [0554]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0554/README.md
 [1014]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/1014/README.md
+
 [0004]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0004/README.md
 [0010]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0010/README.md
-
 [0023]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0023/README.md
 [0025]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0025/README.md
 [0030]: https://github.com/Blankj/awesome-java-leetcode/blob/master/note/0030/README.md

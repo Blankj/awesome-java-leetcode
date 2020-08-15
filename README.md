@@ -1,9 +1,9 @@
 # awesome-java-leetcode
+Hey I am Ananya ,converting the written text in the repo to English so that it could be read by people all ovr the world without barrier of language preventing them to do so.
 
-我如今是一名 Android Developer，大学的我曾是一名 ACMer，我一直认为数据结构和算法是作为一名程序员必须掌握和善于利用的，为了不让数据结构和算法淡出我的记忆，所以我打算重拾 LeetCode 之 Algorithm，语言选择的是 Java，题库会一点点完善起来，按简单，中等，困难分类，相应难度下按题号排序，源代码在 [src][src] 目录中，相关解题都在 [note][note] 目录中，想要学习数据结构和算法或打算刷 LeetCode 的小伙伴们欢迎 star 哦。
+I am now an Android Developer, and I used to be an ACMer in college. I always think that data structures and algorithms must be mastered and used well as a programmer. In order to prevent data structures and algorithms from fading out of my memory, so I plan to revisit LeetCode's Algorithm. The language of choice is Java. The question bank will be improved a little bit. It will be sorted by easy, medium, and difficult, and sorted by question number under the corresponding difficulty. The source code is in the src directory, and the related problems are all in the note In the catalog, those who want to learn data structures and algorithms or plan to use LeetCode welcome star.
 
-如今有机会面试 Facebook，附上 LeetCode 上 Facebook 的面试题目序号，希望可以帮助到以后想入 Facebook 的小伙伴:-)
-
+Now I have the opportunity to interview Facebook, and attach the interview question number of Facebook on LeetCode. I hope it can help those who want to join Facebook in the future :-)
 ```
 1,10,13,15,17,20,23,25,26,28,33,38,43,44,49,50,56,57,67,68,69,71,75,76
 78,79,80,85,88,90,91,98,102,117,121,125,127,128,133,139,146,157,158,161
@@ -12,16 +12,16 @@
 341,377,380,398,404,410,461,477,494,523,525,534,535,543,554
 ```
 
-如果想知道更多公司 LeetCode 面试题，可以参看 [Companies.md][companies]。
+If you want to know more company LeetCode interview questions, you can refer to [Companies.md][companies].
 
-附上镇楼诗：
+Attached to the town house poem:
 
-> 明有科举八股，今有 LeetCode。  
-> 八股定格式而取文采心意，LeetCode 定题目且重答案背诵。  
-> 美其名曰："practice makes perfect."  
-> 为何今不如古？  
-> 非也非也，  
-> 科举为国取士，LeetCode 为 Google 筛码工，各取所需也。  
+> There is a stereotype of imperial examination, and now there is LeetCode.
+> Stereotypes set the format and take the literary heart, LeetCode sets the title and repeats the answer to recite.
+> Beautifully named: "practice makes perfect."
+> Why is today not as good as old?
+> No, no,
+> The imperial examination is a national candidate, LeetCode is a Google screener, and everyone takes what they need.
 
 ## Easy
 
@@ -106,10 +106,11 @@
 | 68   | [Text Justification][0068]                                        | String                                            |
 | 1028 | [从先序遍历还原二叉树(Recover a Tree From Preorder Traversal)][1028] | 树、深度优先搜索                                    |
 
-## 打个小广告
+## Make a small ad
 
-欢迎加入我的知识星球「**[基你太美](https://t.zsxq.com/FmeqfYF)**」，我会在星球中分享 [AucFrame](https://blankj.com/2019/07/22/auc-frame/) 框架、大厂面经、[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 更详尽的说明...一切我所了解的知识，你可以通过支付进入我的星球「**[基你太美](https://t.zsxq.com/FmeqfYF)**」进行体验，加入后优先观看星球中精华的部分，如果觉得星球的内容对自身没有收益，你可以自行申请退款退出星球，也没必要加我好友；**如果你已确定要留在我的星球，可以通过扫描如下二维码（备注：基你太美+你的星球昵称）加我个人微信，方便我后续拉你进群(PS：进得越早价格越便宜)。**
+Welcome to join my knowledge planet "**[基你太美](https://t.zsxq.com/FmeqfYF)**", I will share [AucFrame](https://blankj.com/2019 /07/22/auc-frame/) Frame, Dachang Mianjing, [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) More detailed instructions... All the knowledge I know, you can go through Pay to enter my planet "**[基你太美](https://t.zsxq.com/FmeqfYF)**" to experience it. After joining, you will give priority to watching the best parts of the planet. If you feel that the content of the planet is not for you Earnings, you can apply for a refund and leave the planet by yourself, and there is no need to add my friends; **If you have determined to stay on my planet, you can scan the following QR code (note: based on you are too beautiful + your planet nickname) Add my personal WeChat, so that I can pull you into the group later (PS: the earlier you enter, the cheaper the price). **
 
+![My QR code]
 ![我的二维码](https://raw.githubusercontent.com/Blankj/AndroidUtilCode/master/art/wechat.png)
 
 

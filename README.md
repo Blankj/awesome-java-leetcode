@@ -106,10 +106,11 @@ Attached to the town house poem:
 | 68   | [Text Justification][0068]                                        | String                                            |
 | 1028 | [从先序遍历还原二叉树(Recover a Tree From Preorder Traversal)][1028] | 树、深度优先搜索                                    |
 
-## 打个小广告
+## Make a small ad
 
-欢迎加入我的知识星球「**[基你太美](https://t.zsxq.com/FmeqfYF)**」，我会在星球中分享 [AucFrame](https://blankj.com/2019/07/22/auc-frame/) 框架、大厂面经、[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 更详尽的说明...一切我所了解的知识，你可以通过支付进入我的星球「**[基你太美](https://t.zsxq.com/FmeqfYF)**」进行体验，加入后优先观看星球中精华的部分，如果觉得星球的内容对自身没有收益，你可以自行申请退款退出星球，也没必要加我好友；**如果你已确定要留在我的星球，可以通过扫描如下二维码（备注：基你太美+你的星球昵称）加我个人微信，方便我后续拉你进群(PS：进得越早价格越便宜)。**
+Welcome to join my knowledge planet "**[基你太美](https://t.zsxq.com/FmeqfYF)**", I will share [AucFrame](https://blankj.com/2019 /07/22/auc-frame/) Frame, Dachang Mianjing, [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) More detailed instructions... All the knowledge I know, you can go through Pay to enter my planet "**[基你太美](https://t.zsxq.com/FmeqfYF)**" to experience it. After joining, you will give priority to watching the best parts of the planet. If you feel that the content of the planet is not for you Earnings, you can apply for a refund and leave the planet by yourself, and there is no need to add my friends; **If you have determined to stay on my planet, you can scan the following QR code (note: based on you are too beautiful + your planet nickname) Add my personal WeChat, so that I can pull you into the group later (PS: the earlier you enter, the cheaper the price). **
 
+![My QR code]
 ![我的二维码](https://raw.githubusercontent.com/Blankj/AndroidUtilCode/master/art/wechat.png)
 
 

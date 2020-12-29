@@ -1,0 +1,41 @@
+class MedianFinder {
+
+    List<Double> lst ;
+        
+    public MedianFinder() {        
+        lst = new ArrayList<>();              
+    }
+    
+    public void addNum(int num) {
+        
+        double n = num*1.0;        
+               
+      /*  for(int i=0;i<lst.size();i++)
+        {
+            if(lst.get(i)>n)
+            {
+                lst.add(i,n);
+                return;
+            }
+        } */
+        lst.add(n);
+    }
+    
+    public double findMedian() {
+        
+        Collections.sort(lst);
+        
+        int sz= lst.size();
+         //System.out.println(lst.size());
+        
+        if(sz%2!=0)
+        {
+            return lst.get(sz/2);
+        }
+        else
+        {          
+            return (lst.get(sz/2)+lst.get((sz-1)/2))/2.0;
+        }
+        
+    }
+}

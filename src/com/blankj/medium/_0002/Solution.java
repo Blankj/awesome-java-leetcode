@@ -11,25 +11,27 @@ import com.blankj.structure.ListNode;
  * </pre>
  */
 public class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode node = new ListNode(0);
-        ListNode n1 = l1, n2 = l2, t = node;
-        int sum = 0;
-        while (n1 != null || n2 != null) {
-            sum /= 10;
-            if (n1 != null) {
-                sum += n1.val;
-                n1 = n1.next;
-            }
-            if (n2 != null) {
-                sum += n2.val;
-                n2 = n2.next;
-            }
-            t.next = new ListNode(sum % 10);
-            t = t.next;
+       public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode p = l1, q = l2, curr = dummy;
+        int c = 0;
+        
+        while(p!=null || q!=null){
+            int x = (p!=null)?p.val:0;
+            int y = (q!=null)?q.val:0;
+            int sum = x+y+c;
+            c = sum/10;
+            curr.next = new ListNode(sum%10);
+            curr = curr.next;
+            if(p!=null)
+                p=p.next;
+            if(q!=null)
+                q=q.next;
         }
-        if (sum / 10 != 0) t.next = new ListNode(1);
-        return node.next;
+        if(c>0){
+            curr.next = new ListNode(c);
+        }
+        return dummy.next;
     }
 
     public static void main(String[] args) {

@@ -23,6 +23,7 @@
 > 非也非也，  
 > 科举为国取士，LeetCode 为 Google 筛码工，各取所需也。  
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=Blankj_awesome-java-leetcode) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
 ## Easy
 
 | #    | Title                                                             | Tag                                               |
